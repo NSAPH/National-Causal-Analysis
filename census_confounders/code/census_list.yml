@@ -1,0 +1,515 @@
+poverty:
+    census:
+         2008:
+             prefix: SF3_
+             zcta: Geo_ZCTA5
+             num:
+              - P087008
+              - P087009
+             den:
+              - P087008
+              - P087009
+              - P087016
+              - P087017
+    census_acs:
+          2010: skip
+          2016:
+              prefix: SE_
+              zcta: Geo_ZCTA5
+              num:
+               - T116_002
+              den:
+               - T116_001
+popdensity:
+    census:
+        2008:
+            prefix: SE_
+            zcta: Geo_ZCTA5
+            num:
+            - T003_001
+    census_acs:
+        2010: skip
+        2016:
+            prefix: SE_
+            zcta: Geo_ZCTA5
+            num:
+            - T002_002
+medianhousevalue:
+    census:
+        2008:
+            prefix: SE_
+            zcta: Geo_ZCTA5
+            num:
+            - T163_001
+    census_acs:
+        2010: skip
+        2016:
+            prefix: SE_
+            zcta: Geo_ZCTA5
+            num:
+            - T101_001
+pct_blk:
+    census:
+        2008:
+            prefix: SF1_
+            zcta: Geo_ZCTA5
+            num:
+            - P007003
+            den:
+            - P007001
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001003
+            den:
+            - B02001001
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001003
+            den:
+            - B02001001
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001003
+            den:
+            - B02001001
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001003
+            den:
+            - B02001001
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001003
+            den:
+            - B02001001
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001003
+            den:
+            - B02001001
+medhouseholdincome:
+    census:
+        2008:
+            prefix: SF3_
+            zcta: Geo_ZCTA5
+            num:
+            - P053001
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B19013001
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B19013001
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B19013001
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B19013001
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B19013001
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B19013001
+pct_owner_occ:
+    census:
+        2008:
+            prefix: SF1_
+            zcta: Geo_ZCTA5
+            num:
+            - H017002
+            den:
+            - H017001
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B11012004
+            - B11012008
+            - B11012011
+            - B11012014
+            den:
+            - B11012001
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B11012004
+            - B11012008
+            - B11012011
+            - B11012014
+            den:
+            - B11012001
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B11012004
+            - B11012008
+            - B11012011
+            - B11012014
+            den:
+            - B11012001
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B11012004
+            - B11012008
+            - B11012011
+            - B11012014
+            den:
+            - B11012001
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B25011002
+            den:
+            - B25011001
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B25011002
+            den:
+            - B25011001
+hispanic:
+    census:
+        2008:
+            prefix: SF1_
+            zcta: Geo_ZCTA5
+            num:
+            - P008010
+            den:
+            - P008001
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B03003003
+            den:
+            - B03003001
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B03003003
+            den:
+            - B03003001
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B03003003
+            den:
+            - B03003001
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B03003003
+            den:
+            - B03003001
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B03003003
+            den:
+            - B03003001
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B03003003
+            den:
+            - B03003001
+education:
+    census:
+        2008:
+            prefix: SF3_
+            zcta: Geo_ZCTA5
+            num:
+            - PCT025036
+            - PCT025037
+            - PCT025077
+            - PCT025078
+            den:
+            - PCT025035
+            - PCT025076
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B15001036
+            - B15001037
+            - B15001077
+            - B15001078
+            den:
+            - B15001035
+            - B15001076
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B15001036
+            - B15001037
+            - B15001077
+            - B15001078
+            den:
+            - B15001035
+            - B15001076
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B15001036
+            - B15001037
+            - B15001077
+            - B15001078
+            den:
+            - B15001035
+            - B15001076
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B15001036
+            - B15001037
+            - B15001077
+            - B15001078
+            den:
+            - B15001035
+            - B15001076
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B15001036
+            - B15001037
+            - B15001077
+            - B15001078
+            den:
+            - B15001035
+            - B15001076
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B15001036
+            - B15001037
+            - B15001077
+            - B15001078
+            den:
+            - B15001035
+            - B15001076
+population:
+    census:
+        2008:
+            prefix: SE_
+            zcta: Geo_ZCTA5
+            num:
+            - T003_002
+    census_acs:
+        2010: skip
+        2016:
+            prefix: SE_
+            zcta: Geo_ZCTA5
+            num:
+            - T002_001
+pct_asian:
+    census:
+        2008:
+            prefix: SF1_
+            zcta: Geo_ZCTA5
+            num:
+            - P007005
+            den:
+            - P007001
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001005
+            den:
+            - B02001001
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001005
+            den:
+            - B02001001
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001005
+            den:
+            - B02001001
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001005
+            den:
+            - B02001001
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001005
+            den:
+            - B02001001
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001005
+            den:
+            - B02001001
+pct_native:
+    census:
+        2008:
+            prefix: SF1_
+            zcta: Geo_ZCTA5
+            num:
+            - P007004
+            den:
+            - P007001
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001004
+            den:
+            - B02001001
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001004
+            den:
+            - B02001001
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001004
+            den:
+            - B02001001
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001004
+            den:
+            - B02001001
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001004
+            den:
+            - B02001001
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001004
+            den:
+            - B02001001
+pct_white:
+    census:
+        2008:
+            prefix: SF1_
+            zcta: Geo_ZCTA5
+            num:
+            - P007002
+            den:
+            - P007001
+    census_acs:
+        2010: skip
+        2011:
+            prefix: ACS11_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001002
+            den:
+            - B02001001
+        2012:
+            prefix: ACS12_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001002
+            den:
+            - B02001001
+        2013:
+            prefix: ACS13_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001002
+            den:
+            - B02001001
+        2014:
+            prefix: ACS14_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001002
+            den:
+            - B02001001
+        2015:
+            prefix: ACS15_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001002
+            den:
+            - B02001001
+        2016:
+            prefix: ACS16_5yr_
+            zcta: Geo_ZCTA5
+            num:
+            - B02001002
+            den:
+            - B02001001
+
