@@ -1,0 +1,162 @@
+Variable Name 2012,Variable Name,Description,Source,n_missing.2016,n_missing.2012,n_observed.2016,n_observed.2012,n_unique.2016,n_unique.2012,value.2016,value.2012,count.2016,count.2012,percent.2016,percent.2012,min.2016,min.2012,mean.2016,mean.2012,median.2016,median.2012,max.2016,max.2012,sd.2016,sd.2012
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,1,1,69834499,55264754,10.19,11.69,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,10,10,97719191,74969965,14.26,15.86,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,2,2,27238629,19519800,3.97,4.13,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,3,3,52190327,37316303,7.61,7.9,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,4,4,88785321,69757600,12.95,14.76,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,5,5,45170522,34258214,6.59,7.25,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,6,6,41393271,31283583,6.04,6.62,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,7,7,55467290,41018469,8.09,8.68,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,8,8,64513164,49748845,9.41,10.53,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,9,9,75030767,50157183,10.95,10.61,,,,,,,,,,
+dead,dead,Indicator of participant death (bene_dod) in this year (0 = not dead 1 = dead). Derived from Medicare data.,Medicare,0,0,685487624,472628948,2,2,FALSE,FALSE,652900498,449539601,95.25,95.11,,,,,,,,,,
+dead,dead,Indicator of participant death (bene_dod) in this year (0 = not dead 1 = dead). Derived from Medicare data.,Medicare,0,0,685487624,472628948,2,2,TRUE,TRUE,32587126,23089347,4.75,4.89,,,,,,,,,,
+dodflag,dodflag,Valid date of death switch (v=validated),Medicare,0,0,685487624,472628948,2,2,V,V,27239140,17398885,3.97,3.68,,,,,,,,,,
+dual,dual,Eligible for both Medicare and Medicaid,Medicare,0,0,685487624,472628948,2,2,0,0,598741002,412628734,87.35,87.31,,,,,,,,,,
+dual,dual,Eligible for both Medicare and Medicaid,Medicare,0,0,685487624,472628948,2,2,1,1,86746622,60000214,12.65,12.69,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,1,1,444702679,279891033,64.87,59.22,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,2,2,108744464,85445417,15.86,18.08,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,3,3,72364552,58839301,10.56,12.45,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,4,4,36869349,30479953,5.38,6.45,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,5,5,15192487,12263381,2.22,2.59,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,6,6,4613842,3471768,0.67,0.73,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,7,7,2991365,2236725,0.44,0.47,,,,,,,,,,
+entry_age_break_1999,entry_age_break,Age category on entering the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,8,8,8,8,8886,1370,0,0,,,,,,,,,,
+race,race,Beneficiary race code (1=white 2=black others),Medicare,0,0,685487624,472628948,7,7,0,0,3331793,1064539,0.49,0.23,,,,,,,,,,
+race,race,Beneficiary race code (1=white 2=black others),Medicare,0,0,685487624,472628948,7,7,1,1,582518860,404707156,84.98,85.63,,,,,,,,,,
+race,race,Beneficiary race code (1=white 2=black others),Medicare,0,0,685487624,472628948,7,7,2,2,57111390,38955015,8.33,8.24,,,,,,,,,,
+race,race,Beneficiary race code (1=white 2=black others),Medicare,0,0,685487624,472628948,7,7,3,3,11726975,7369679,1.71,1.56,,,,,,,,,,
+race,race,Beneficiary race code (1=white 2=black others),Medicare,0,0,685487624,472628948,7,7,4,4,13528014,8852375,1.97,1.87,,,,,,,,,,
+race,race,Beneficiary race code (1=white 2=black others),Medicare,0,0,685487624,472628948,7,7,5,5,15095668,10216978,2.2,2.16,,,,,,,,,,
+race,race,Beneficiary race code (1=white 2=black others),Medicare,0,0,685487624,472628948,7,7,6,6,2174924,1463206,0.32,0.31,,,,,,,,,,
+sex,sex,sex (1=male and 2=femaile),Medicare,0,0,685487624,472628948,2,3,1,1,293147013,200220060,42.76,42.36,,,,,,,,,,
+sex,sex,sex (1=male and 2=femaile),Medicare,0,0,685487624,472628948,2,3,2,2,392340611,272408660,57.24,57.64,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,AK,AK,1078222,763063,0.16,0.16,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,AL,AL,11131389,7728555,1.62,1.64,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,AR,AR,7050070,4913722,1.03,1.04,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,AZ,AZ,13346115,9005496,1.95,1.91,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,CA,CA,70929067,48564968,10.35,10.28,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,CO,CO,9045489,6057386,1.32,1.28,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,CT,CT,8668153,6071423,1.26,1.28,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,DC,DC,1177310,827279,0.17,0.18,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,DE,DE,2126289,1441399,0.31,0.3,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,FL,FL,51018268,35080168,7.44,7.42,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,GA,GA,16749267,11279797,2.44,2.39,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,GU,GU,172376,115524,0.03,0.02,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,HI,HI,3187533,2185661,0.47,0.46,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,IA,IA,7969012,5617850,1.16,1.19,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,ID,ID,3245890,2189834,0.47,0.46,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,IL,IL,27612989,19295566,4.03,4.08,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,IN,IN,14465256,10067654,2.11,2.13,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,KS,KS,6538710,4583915,0.95,0.97,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,KY,KY,9836652,6815621,1.43,1.44,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,LA,LA,9558828,6649918,1.39,1.41,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MA,MA,15640952,10892522,2.28,2.3,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MD,MD,11693867,8032590,1.71,1.7,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,ME,ME,3644559,2513032,0.53,0.53,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MH,MH,18,12,0,0,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MI,MI,23531205,16368606,3.43,3.46,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MN,MN,11708341,8090660,1.71,1.71,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MO,MO,14268450,9962431,2.08,2.11,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MP,MP,21927,14594,0,0,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MS,MS,6511870,4532841,0.95,0.96,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,MT,MT,2473406,1692913,0.36,0.36,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,NC,NC,20265999,13790052,2.96,2.92,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,ND,ND,1698870,1202762,0.25,0.25,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,NE,NE,4287067,3008037,0.63,0.64,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,NH,NH,3079216,2099428,0.45,0.44,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,NJ,NJ,20350676,14236538,2.97,3.01,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,NM,NM,4333001,2957250,0.63,0.63,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,NV,NV,5091101,3397533,0.74,0.72,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,NY,NY,44445870,31124690,6.48,6.59,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,OH,OH,28186172,19740430,4.11,4.18,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,OK,OK,8553243,5970926,1.25,1.26,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,OR,OR,9097258,6203501,1.33,1.31,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,PA,PA,34421166,24261687,5.02,5.13,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,PR,PR,8405667,5843337,1.23,1.24,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,RI,RI,2698970,1901362,0.39,0.4,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,SC,SC,10357391,6978510,1.51,1.48,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,SD,SD,2085443,1451561,0.3,0.31,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,TN,TN,14248896,9780506,2.08,2.07,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,TX,TX,42671611,28988829,6.23,6.13,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,UT,UT,4066538,2759266,0.59,0.58,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,VA,VA,16212653,11070766,2.37,2.34,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,VI,VI,225348,149842,0.03,0.03,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,VT,VT,1570158,1075086,0.23,0.23,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,WA,WA,13940038,9420042,2.03,1.99,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,WI,WI,13571597,9440497,1.98,2,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,WV,WV,5098896,3579998,0.74,0.76,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,WY,WY,1184089,812117,0.17,0.17,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,1,,261280068,,55.28,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,2,,88883642,,18.81,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,3,,65241241,,13.8,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,4,,34888024,,7.38,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,5,,15166485,,3.21,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,6,,4592926,,0.97,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,7,,2575192,,0.54,,,,,,,,,,
+entry_age_break_2000,,,,,0,,472628948,,8,,8,,1370,,0,,,,,,,,,,
+sex,,,,,0,,472628948,,3,,0,,228,,0,,,,,,,,,,
+a1c_exm_pct,a1c_exm_pct,Percent of medicare patients in a county having at least 1 hemoglobin a1c exam in a year,Dartmouth,64776042,6989213,620711582,465639735,33961,24781,"","",,,,,12.2807,12.2807,83.0423,82.3128,83.6463,82.868,100,100,4.9866,5.0167
+a1c_exm_pct_no_interp,a1c_exm_pct_no_interp,Percent of medicare patients in a county having at least 1 hemoglobin a1c exam in a year (no interpolation),Dartmouth,400702298,248574381,284785326,224054567,14472,11367,"","",,,,,12.2807,12.2807,83.9218,83.3451,84.4648,83.8644,100,100,4.6547,4.7333
+age,age,Age at end of prior year,Medicare,0,0,685487624,472628948,50,50,"","",,,,,65,65,75.0338,75.1975,74,74,114,114,7.7166,7.674
+amb_visit_pct,amb_visit_pct,Percent of medicare patients in a county having at least 1 ambulatory medical visit in a year,Dartmouth,64776042,6989213,620711582,465639735,44638,32427,"","",,,,,18.3317,18.3317,77.7336,77.6175,78.9139,78.7918,95.77,95.77,6.215,6.2677
+amb_visit_pct_no_interp,amb_visit_pct_no_interp,Percent of medicare patients in a county having at least 1 ambulatory medical visit in a year (no interpolation),Dartmouth,399536457,247282915,285951167,225346033,23251,17116,"","",,,,,18.3317,18.3317,77.9742,77.8726,79.13,79.0447,95.77,95.77,6.2583,6.3093
+education,education,Percent of a zipcodes population older than 65 not having completed high school,Census,55457285,1596153,630030339,471032795,369131,317455,"","",,,,,0,0,0.2612,0.2794,0.2322,0.2546,1,1,0.1548,0.1537
+education_no_interp,education_no_interp,Percent of a zipcodes population older than 65 not having completed high school (no interpolation),Census,416453602,358811886,269034022,113817062,104326,54862,"","",,,,,0,0,0.2233,0.2642,0.1907,0.2363,1,1,0.1433,0.1526
+entry_age_1999,entry_age,Age on entry in to the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,50,50,"","",,,,,65,65,69.4201,70.1273,66,67,114,114,6.2501,6.4661
+entry_year_1999,entry_year,Year in which an individual entered in to this cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,18,14,"","",,,,,1999,1999,2002.4129,2001.133,1999,1999,2016,2012,4.7019,3.3686
+followup_year_1999,followup_year,Number of years in the cohort (derived from Medicare data including 1999),Medicare,0,0,685487624,472628948,18,14,"","",,,,,1,1,6.632,6.089,6,5,18,14,4.5291,3.6134
+followup_year_plus_one_1999,followup_year_plus_one,Number of years in the cohort plus one (derived from Medicare data including 1999),Medicare,0,,685487624,,18,,"",,,,,,2,,7.632,,7,,19,,4.5291,
+hispanic,hispanic,Percent of a zipcodes population identified as hispanic,Census,55457285,1596153,630030339,471032795,384292,311969,"","",,,,,0,0,0.1347,0.13,0.0522,0.0493,1,1,0.2034,0.198
+hispanic_no_interp,hispanic_no_interp,Percent of a zipcodes population identified as hispanic (no interpolation),Census,416453602,358811886,269034022,113817062,136005,67172,"","",,,,,0,0,0.1444,0.1344,0.0612,0.0531,1,1,0.2065,0.1999
+hmo_mo,hmo_mo,HMO coverage count (number of HMO/MA months),Medicare,0,0,685487624,472628948,13,13,"","",,,,,0,0,2.7885,2.4513,0,0,12,12,4.9956,4.7634
+mean_bmi,mean_bmi,Mean BMI in a county linked to the zipcode,BRFSS,67862835,11228822,617624789,461400126,33670,25899,"","",,,,,20.7,20.7,27.3065,27.2632,27.2752,27.214,43.065,43.065,0.9808,0.9855
+mean_bmi_no_interp,mean_bmi_no_interp,Mean BMI in a county (no interpolation),BRFSS,282953712,61863479,402533912,410765469,21319,20677,"","",,,,,20.7,20.7,27.1431,27.2134,27.0911,27.1568,43.065,43.065,0.9663,0.9562
+medhouseholdincome,medhouseholdincome,Median household income in a zipcode,Census,55457285,1596153,630030339,471032795,302186,276965,"","",,,,,0,0,52474.4879,50849.0145,47547,46029.1333,250001,250001,22307.135,21221.4024
+medhouseholdincome_no_interp,medhouseholdincome_no_interp,Median household income in a zipcode (no interpolation),Census,416453602,358811886,269034022,113817062,60951,40448,"","",,,,,0,0,56086.1914,52582.7956,51067,47591,250001,250001,23587.1981,22120.066
+medianhousevalue,medianhousevalue,Median owner occupied home value in a zipcode,Census,55457285,1596153,630030339,471032795,170713,148603,"","",,,,,0,0,197628.5915,189543.2885,149066.6667,141233.3333,2000001,1998051.6823,156443.5788,150892.0246
+medianhousevalue_no_interp,medianhousevalue_no_interp,Median owner occupied home value in a zipcode (no interpolation),Census,416453602,358811886,269034022,113817062,8690,6507,"","",,,,,0,0,219650.1961,202428.7745,165500,151200,2000001,1000001,170259.4362,160218.8558
+ozone,ozone,QDs Neural Net derived ozone predictions (Summer average),Local,263307986,12367443,422179638,460261505,444926,496718,"","",,,,,9e-04,9e-04,0.0456,0.0457,0.0457,0.0459,0.0872,0.0872,0.0069,0.0069
+ozone_no_interp,ozone_no_interp,Ozone observations (Summer average),Local,308399359,64600316,377088265,408028632,11455,11568,"","",,,,,0.0095,0.0095,0.0458,0.046,0.0463,0.0465,0.0842,0.0842,0.0081,0.0081
+pct_blk,pct_blk,Percent of a zipcodes populatioun identified as black,Census,55457285,1596153,630030339,471032795,339724,273521,"","",,,,,0,0,0.1088,0.1094,0.0363,0.036,1,1,0.1779,0.1791
+pct_blk_no_interp,pct_blk_no_interp,Percent of a zipcodes populatioun identified as black (no interpolation),Census,416453602,358811886,269034022,113817062,122018,60104,"","",,,,,0,0,0.1091,0.1096,0.0385,0.0369,1,1,0.1748,0.1782
+pct_owner_occ,pct_owner_occ,Percent of housing in a zipcode occupied by its owner,Census,55457285,1596153,630030339,471032795,408997,342421,"","",,,,,0,0,0.6806,0.683,0.711,0.7121,1,1,0.1638,0.1599
+pct_owner_occ_no_interp,pct_owner_occ_no_interp,Percent of housing in a zipcode occupied by its owner (no interpolation),Census,416453602,358811886,269034022,113817062,131862,67427,"","",,,,,0,0,0.676,0.6828,0.7048,0.7111,1,1,0.1623,0.1592
+"",pm25_ensemble,"PM2.5 predictions from 2000-2016 generated by an ensemble of a random forest, gradient boosting, and neural net (annual average) ",Local,91978625,,593508999,,572762,,"",,,,,,0.0078,,9.9174,,9.7034,,30.9249,,3.1421,
+pm25,pm25_nn,QDs Neural Net derived pm2.5 predictions from 2000-2012 (annual average),Local,263379990,12444343,422107634,460184605,444811,496593,"","",,,,,0.0209,0.0209,11.4463,11.506,11.2916,11.3592,32.5759,32.5759,2.8806,2.8771
+pm25_no_interp,pm25_no_interp,pm25 observations (annual average),Local,341188005,100770381,344299619,371858567,1560,1563,"","",,,,,3e-04,3e-04,11.4664,11.5519,11.21,11.3,59.34,59.34,3.1675,3.1679
+popdensity,popdensity,Population density of a zipcode,Census,55457285,1596153,630030339,471032795,487418,379331,"","",,,,,0,0,3444.2019,3423.7004,978.5714,977.8756,153867.7,153867.7,9104.0714,8983.0806
+popdensity_no_interp,popdensity_no_interp,Population density of a zipcode (no interpolation),Census,416453602,358811886,269034022,113817062,195696,93774,"","",,,,,0.0051,0.0051,3434.6895,3420.5132,986.6049,983.907,153867.7,153867.7,9245.7931,9050.3189
+poverty,poverty,Percent of a zipcodes population older than 65 living below the poverty line,Census,55457285,1596153,630030339,471032795,334511,290266,"","",,,,,0,0,0.0997,0.0993,0.0788,0.0794,1,1,0.0787,0.0756
+poverty_no_interp,poverty_no_interp,Percent of a zipcodes population older than 65 living below the poverty line (no interpolation),Census,416453602,358811886,269034022,113817062,88262,46385,"","",,,,,0,0,0.0981,0.0986,0.0781,0.0788,1,1,0.0768,0.0757
+pr,pr,"",GRIDMET via Google Earth Engine,96664905,9444487,588822719,463184461,559314,475894,"","",,,,,0.0095,0.0095,2.797,2.7622,2.9144,2.8912,14.6234,14.3856,1.1306,1.1143
+rmax,rmax,Annual average of maximum daily relative humidity in a zip code. Based on an area weighted average of 4km x 4km rasters,GRIDMET via Google Earth Engine,96664905,9444487,588822719,463184461,559283,475865,"","",,,,,33.0706,33.0706,85.1101,85.4083,87.0877,87.5193,99.9866,99.9866,9.0468,9.1609
+smoke_rate,smoke_rate,Percent of population defined by BRFSS as a current smoker. Calculated at the county level and linked to zipcodes,BRFSS,67862835,11228822,617624789,461400126,17647,11023,"","",,,,,0,0,0.4626,0.4654,0.4636,0.4658,1,1,0.0718,0.0731
+,smoke_rate_no_interp,,,282953494,,402534130,,6467,,"",,,,,,0,,0.4638,,0.4644,,1,,0.0699,
+tmmx,tmmx,Annual average of maximum daily temperatures in a zipcode. Based on an area weighted average of 4km x 4km rasters,GRIDMET via Google Earth Engine,96664905,9444487,588822719,463184461,559288,475885,"","",,,,,278.7798,279.223,293.0194,293.1304,291.9925,292.2217,306.5885,306.5885,4.9339,4.8502
+year,year,Year of data,Medicare,0,0,685487624,472628948,18,13,"","",,,,,1999,2000,2008.0448,2006.222,2008,2006,2016,2012,5.2365,3.7609
+entry_age_2000,,,,,0,,472628948,,50,,"",,,,,,65,,70.7325,,68,,114,,6.7612
+entry_year_2000,,,,,0,,472628948,,13,,"",,,,,,2000,,2001.7415,,2000,,2012,,2.9984
+followup_year_2000,,,,,0,,472628948,,13,,"",,,,,,1,,5.4805,,5,,13,,3.4848
+smoke_rate_no_interp,,,,,61863261,,410765687,,6342,,"",,,,,,0,,0.4628,,0.4636,,1,,0.0702
+bene_dod,bene_dod,Date of death,Medicare,0,0,685487624,472628948,6576,4750,"","",,,,,,,,,,,,,,
+cluster_cat,cluster_cat,Kmeans clustering of of five major chemical components of PM2.5. Produced for NEJM paper. Provenance uncertain.,Local,68144643,9334232,617342981,463294716,10,10,"","",68144643,9334232,9.94,1.97,,,,,,,,,,
+,death,,,0,,685487624,,2,,"",,,,,,,,,,,,,,,
+dodflag,dodflag,Valid date of death switch (v=validated),Medicare,0,0,685487624,472628948,2,2,"","",658248484,455230063,96.03,96.32,,,,,,,,,,
+fips,fips,FIPS ID,Combined Medicare/Census,697179,569050,684790445,472059898,3361,3227,"","",,,,,,,,,,,,,,
+fips_no_interp,fips_no_interp,US county code used to help link county level data to zipcodes (no interpolation),Census,697118,569050,684790506,472059898,3361,3227,"","",,,,,,,,,,,,,,
+hmoind,hmoind,HMO indicator for each month (0=FSS plan C=HML/MA plan),Medicare,0,0,685487624,472628948,6896,6149,"","",,,,,,,,,,,,,,
+latitude,latitude,Latitude (degress) of the center (centroid) of the ZIP code,Medicare,1592851,590260,683894773,472038688,40190,40038,"","",,,,,,,,,,,,,,
+longitude,longitude,Longitude (degress) of the center (centroid) of the ZIP code,Medicare,1592851,590260,683894773,472038688,40236,40083,"","",,,,,,,,,,,,,,
+,population,,,55457285,,630030339,,252362,,"",,,,,,,,,,,,,,,
+,population_no_interp,,,416453602,,269034022,,42282,,"",,,,,,,,,,,,,,,
+qid,qid,Encrypted 723 Beneficiary ID (beneficiary unique ID),Medicare,0,0,685487624,472628948,78094676,62430262,"","",,,,,,,,,,,,,,
+statecode,statecode,Two-letter abbrev. for state name,Medicare,0,0,685487624,472628948,57,57,"","",939210,29395,0.14,0.01,,,,,,,,,,
+zcta,zcta,"","",55457285,1596153,630030339,471032795,29428,32404,"","",,,,,,,,,,,,,,
+zcta_no_interp,zcta_no_interp,"","",416453602,358811886,269034022,113817062,29334,32196,"","",,,,,,,,,,,,,,
+zip,zip,Zip code of the mailing address where the benficiary may be contacted,Medicare,0,0,685487624,472628948,45146,46693,"","",,,,,,,,,,,,,,
+followup_year_1999_plus_one,,,,,0,,472628948,,14,,"",,,,,,,,,,,,,,
+followup_year_2000_plus_one,,,,,0,,472628948,,13,,"",,,,,,,,,,,,,,
+population,,,,,1596153,,471032795,,229291,,"",,,,,,,,,,,,,,
+population_no_interp,,,,,358811886,,113817062,,29109,,"",,,,,,,,,,,,,,
+zipcode_r,,,,,0,,472628948,,46693,,"",,,,,,,,,,,,,,

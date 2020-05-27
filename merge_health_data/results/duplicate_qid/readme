@@ -1,0 +1,35 @@
+This directory contains information about duplicate QID/year
+combinations in the health denominator data, i.e.,
+ci3_health_data/medicare/mortality/2000_2012/unmerged_data/denominator_1999_2013.csv`.
+
+`duplicate_qid_example.txt` contains some examples discovered early
+on. `qid_dup_summary.csv` contains counts of duplicates by year.
+`qid_dup_data.csv` contains the actual duplicate records.
+
+
+A typical example is reproduced below (wrapped for readability):
+
+sex	race	age	hmoind	hmo_mo	year	bene_dod	
+2	1	80	0	0	2000			
+2	1	80	0	0	2000			
+2	1	80	0	0	2000	20MAY2000	
+2	1	80	0	0	2000	20MAY2000	
+                                                                                                                         
+qid             statecode	fips	latitude	longitude
+lllllll000l78OS	HI	        15003	21.312545	-157.821044		
+lllllll000l78OS	HI	        15003	21.312545	-157.821044		
+lllllll000l78OS	HI	        15003	21.296254	-157.696767		
+lllllll000l78OS	HI	        15003	21.296254	-157.696767
+
+dodflag	dual	zipcode_r	zip
+	0	22869		96822
+	1	22869		96822
+	0	52869		96825
+	1	52869		96825
+
+In this example, "bene_dod", "latitude", "longitude" and "dual" vary
+within year=2000 + qid=lllllll000l78OS identifier, and we don't have a
+clear basis for deciding which is the "right" one. Yun suggested that
+this should be left up to the analyst using the data, and that since
+the proportions are small (see `qid_dup_summary.csv`) selection one
+of the duplicates at random should be an OK strategy.
