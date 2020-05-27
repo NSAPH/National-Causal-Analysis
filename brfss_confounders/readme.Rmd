@@ -1,0 +1,25 @@
+---
+title: "BRFSS Confounder Preparation"
+author: "Ben Sabath"
+date: "`R format(Sys.Date(), '%B %d, %Y')`"
+output: html_document
+---
+
+This directory contains aggregated information from the CDC's BRFSS data set, which we use to acquire county level information on mean BMI and smoking habits. All data has been linked from the county level to the zip code level.
+
+**THE INTERPOLATED DATA IS IN `brfss_interpolated.csv`**
+
+**THE UNINTERPOLATED DATA IS IN `brfss_confounders.csv`**
+
+## Data Preparation
+
+When we download the BRFSS data from the CDC, we get it in the format of XPT sas archives.To enable further work, we convert these fiels to csv files. In its original form, the BRFSS data is stored as individual survey results, which include both direct questions, and calculated variables. Information on the location of individuals is limited to their county. To create the zip code level data, we aggregate the variables of interest within each county, and then link the county level data to zip codes. We also perform moving average temporal interpolation to reduce missingness. The uninterpolated data is kept to help control for uncertainty in the interpolation method, and allow users to identify which values were interpolated. To recreate the workflow, run `main.R`.
+
+## Variable details:
+
+- `fips`: 5 digit county code
+- `smoke_rate`: % of the respondents in a county who have ever smoked
+- `mean_bmi`: mean bmi of respondants in a county
+- `year`: Year of response
+- `ZIP`: zip code
+

@@ -1,0 +1,60 @@
+/**** Start of imports. If edited, may not auto-convert in the playground. ****/
+var zip_list = ee.FeatureCollection("users/bsabath1/shape_files/2007_zip");
+/***** End of imports. If edited, may not auto-convert in the playground. *****/
+/*
+Code to aggregate temperature zipcodes from 2016
+*/
+
+var dataset = ee.ImageCollection('IDAHO_EPSCOR/GRIDMET')
+                  .filter(ee.Filter.date('2003-01-01', '2003-12-31'));
+                  
+//var rect = ee.Geometry.Rectangle(-125.11, 48.989, -116.761, 45.846);
+
+//zip_list = zip_list.filterBounds(rect);
+
+var maximumTemperature = dataset.select('tmmx');
+var maximumTemperatureVis = {
+  min: 290.0,
+  max: 314.0,
+  palette: ['d8d8d8', '4addff', '5affa3', 'f2ff89', 'ff725c'],
+};
+//Map.setCenter(-115.356, 38.686, 5);
+Map.addLayer(maximumTemperature, maximumTemperatureVis, 'Maximum Temperature');
+
+
+var to_zip = function(image) {
+  
+  var out = image.reduceRegions({
+    collection: zip_list,
+    reducer: ee.Reducer.mean(),
+    scale: 1000
+  });
+  return out;
+};
+
+var idToDate = function(feature) {
+  var ymd = feature.id().slice(0,8);
+  var t_date = ymd.slice(0,4).cat('-').cat(ymd.slice(4,6)).cat('-').cat(ymd.slice(6,8));
+  var out = feature.set({date: t_date});
+  return out;
+}
+
+
+
+var temp = dataset.map(to_zip).flatten()
+
+temp = temp.map(idToDate)
+
+Export.table.toDrive({
+  collection: temp,
+  description: 'temp_zip_2003',
+  fileFormat: 'CSV',
+  selectors: ['ZIP','tmmx','rmax','pr','date']
+})
+  
+/*
+//print(test_out)
+
+//Map.addLayer(zip_list, {}, 'zips')
+Map.setCenter(-120.357, 47.489)
+*/
