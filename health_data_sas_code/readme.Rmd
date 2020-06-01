@@ -1,0 +1,12 @@
+---
+title: "SAS code to create analytic data set"
+author: "Ben Sabath"
+date: "`R format(Sys.Date(), '%B %d, %Y')"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This directory contains code to 
