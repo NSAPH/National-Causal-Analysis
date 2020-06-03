@@ -1,0 +1,207 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11908060
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2000
+Dataset:          Summary File 1 (SF 1) - 100-Percent Data
+Tables:
+
+      1. Tenure By Household Type (Including Living Alone) By Age Of Householder
+         Universe:  Occupied housing units
+         Name:      H17
+         Variables:
+            H017001:   Total
+            H017002:      Owner occupied
+            H017003:         Family households
+            H017004:            Married-couple family
+            H017005:               Householder 15 to 34 years
+            H017006:               Householder 35 to 64 years
+            H017007:               Householder 65 years and over
+            H017008:            Other family
+            H017009:               Male householder, no wife present
+            H017010:                  Householder 15 to 34 years
+            H017011:                  Householder 35 to 64 years
+            H017012:                  Householder 65 years and over
+            H017013:               Female householder, no husband present
+            H017014:                  Householder 15 to 34 years
+            H017015:                  Householder 35 to 64 years
+            H017016:                  Householder 65 years and over
+            H017017:         Nonfamily households
+            H017018:            Male householder
+            H017019:               Living alone
+            H017020:                  Householder 15 to 34 years
+            H017021:                  Householder 35 to 64 years
+            H017022:                  Householder 65 years and over
+            H017023:               Not living alone
+            H017024:                  Householder 15 to 34 years
+            H017025:                  Householder 35 to 64 years
+            H017026:                  Householder 65 years and over
+            H017027:            Female householder
+            H017028:               Living alone
+            H017029:                  Householder 15 to 34 years
+            H017030:                  Householder 35 to 64 years
+            H017031:                  Householder 65 years and over
+            H017032:               Not living alone
+            H017033:                  Householder 15 to 34 years
+            H017034:                  Householder 35 to 64 years
+            H017035:                  Householder 65 years and over
+            H017036:      Renter occupied
+            H017037:         Family households
+            H017038:            Married-couple family
+            H017039:               Householder 15 to 34 years
+            H017040:               Householder 35 to 64 years
+            H017041:               Householder 65 years and over
+            H017042:            Other family
+            H017043:               Male householder, no wife present
+            H017044:                  Householder 15 to 34 years
+            H017045:                  Householder 35 to 64 years
+            H017046:                  Householder 65 years and over
+            H017047:               Female householder, no husband present
+            H017048:                  Householder 15 to 34 years
+            H017049:                  Householder 35 to 64 years
+            H017050:                  Householder 65 years and over
+            H017051:         Nonfamily households
+            H017052:            Male householder
+            H017053:               Living alone
+            H017054:                  Householder 15 to 34 years
+            H017055:                  Householder 35 to 64 years
+            H017056:                  Householder 65 years and over
+            H017057:               Not living alone
+            H017058:                  Householder 15 to 34 years
+            H017059:                  Householder 35 to 64 years
+            H017060:                  Householder 65 years and over
+            H017061:            Female householder
+            H017062:               Living alone
+            H017063:                  Householder 15 to 34 years
+            H017064:                  Householder 35 to 64 years
+            H017065:                  Householder 65 years and over
+            H017066:               Not living alone
+            H017067:                  Householder 15 to 34 years
+            H017068:                  Householder 35 to 64 years
+            H017069:                  Householder 65 years and over
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      ZCTA3:          ZIP Code Tabulation Area (3 digit)
+      ZCTA5:          ZIP Code Tabulation Area (5 digit)
+      H017001:        Occupied housing units
+      H017002:        Occupied housing units: Owner occupied
+      H017003:        Occupied housing units: Owner occupied: Family households
+      H017004:        Occupied housing units: Owner occupied: Family households: Married-couple family
+      H017005:        Occupied housing units: Owner occupied: Family households: Married-couple family: Householder 15 to 34 years
+      H017006:        Occupied housing units: Owner occupied: Family households: Married-couple family: Householder 35 to 64 years
+      H017007:        Occupied housing units: Owner occupied: Family households: Married-couple family: Householder 65 years and over
+      H017008:        Occupied housing units: Owner occupied: Family households: Other family
+      H017009:        Occupied housing units: Owner occupied: Family households: Other family: Male householder, no wife present
+      H017010:        Occupied housing units: Owner occupied: Family households: Other family: Male householder, no wife present: Householder 15 to 34 years
+      H017011:        Occupied housing units: Owner occupied: Family households: Other family: Male householder, no wife present: Householder 35 to 64 years
+      H017012:        Occupied housing units: Owner occupied: Family households: Other family: Male householder, no wife present: Householder 65 years and over
+      H017013:        Occupied housing units: Owner occupied: Family households: Other family: Female householder, no husband present
+      H017014:        Occupied housing units: Owner occupied: Family households: Other family: Female householder, no husband present: Householder 15 to 34 years
+      H017015:        Occupied housing units: Owner occupied: Family households: Other family: Female householder, no husband present: Householder 35 to 64 years
+      H017016:        Occupied housing units: Owner occupied: Family households: Other family: Female householder, no husband present: Householder 65 years and over
+      H017017:        Occupied housing units: Owner occupied: Nonfamily households
+      H017018:        Occupied housing units: Owner occupied: Nonfamily households: Male householder
+      H017019:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Living alone
+      H017020:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Living alone: Householder 15 to 34 years
+      H017021:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Living alone: Householder 35 to 64 years
+      H017022:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Living alone: Householder 65 years and over
+      H017023:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Not living alone
+      H017024:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Not living alone: Householder 15 to 34 years
+      H017025:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Not living alone: Householder 35 to 64 years
+      H017026:        Occupied housing units: Owner occupied: Nonfamily households: Male householder: Not living alone: Householder 65 years and over
+      H017027:        Occupied housing units: Owner occupied: Nonfamily households: Female householder
+      H017028:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Living alone
+      H017029:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Living alone: Householder 15 to 34 years
+      H017030:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Living alone: Householder 35 to 64 years
+      H017031:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Living alone: Householder 65 years and over
+      H017032:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Not living alone
+      H017033:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Not living alone: Householder 15 to 34 years
+      H017034:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Not living alone: Householder 35 to 64 years
+      H017035:        Occupied housing units: Owner occupied: Nonfamily households: Female householder: Not living alone: Householder 65 years and over
+      H017036:        Occupied housing units: Renter occupied
+      H017037:        Occupied housing units: Renter occupied: Family households
+      H017038:        Occupied housing units: Renter occupied: Family households: Married-couple family
+      H017039:        Occupied housing units: Renter occupied: Family households: Married-couple family: Householder 15 to 34 years
+      H017040:        Occupied housing units: Renter occupied: Family households: Married-couple family: Householder 35 to 64 years
+      H017041:        Occupied housing units: Renter occupied: Family households: Married-couple family: Householder 65 years and over
+      H017042:        Occupied housing units: Renter occupied: Family households: Other family
+      H017043:        Occupied housing units: Renter occupied: Family households: Other family: Male householder, no wife present
+      H017044:        Occupied housing units: Renter occupied: Family households: Other family: Male householder, no wife present: Householder 15 to 34 years
+      H017045:        Occupied housing units: Renter occupied: Family households: Other family: Male householder, no wife present: Householder 35 to 64 years
+      H017046:        Occupied housing units: Renter occupied: Family households: Other family: Male householder, no wife present: Householder 65 years and over
+      H017047:        Occupied housing units: Renter occupied: Family households: Other family: Female householder, no husband present
+      H017048:        Occupied housing units: Renter occupied: Family households: Other family: Female householder, no husband present: Householder 15 to 34 years
+      H017049:        Occupied housing units: Renter occupied: Family households: Other family: Female householder, no husband present: Householder 35 to 64 years
+      H017050:        Occupied housing units: Renter occupied: Family households: Other family: Female householder, no husband present: Householder 65 years and over
+      H017051:        Occupied housing units: Renter occupied: Nonfamily households
+      H017052:        Occupied housing units: Renter occupied: Nonfamily households: Male householder
+      H017053:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Living alone
+      H017054:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Living alone: Householder 15 to 34 years
+      H017055:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Living alone: Householder 35 to 64 years
+      H017056:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Living alone: Householder 65 years and over
+      H017057:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Not living alone
+      H017058:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Not living alone: Householder 15 to 34 years
+      H017059:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Not living alone: Householder 35 to 64 years
+      H017060:        Occupied housing units: Renter occupied: Nonfamily households: Male householder: Not living alone: Householder 65 years and over
+      H017061:        Occupied housing units: Renter occupied: Nonfamily households: Female householder
+      H017062:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Living alone
+      H017063:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Living alone: Householder 15 to 34 years
+      H017064:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Living alone: Householder 35 to 64 years
+      H017065:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Living alone: Householder 65 years and over
+      H017066:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Not living alone
+      H017067:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Not living alone: Householder 15 to 34 years
+      H017068:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Not living alone: Householder 35 to 64 years
+      H017069:        Occupied housing units: Renter occupied: Nonfamily households: Female householder: Not living alone: Householder 65 years and over
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11908060
+
+If you have any questions contact info@socialexplorer.com

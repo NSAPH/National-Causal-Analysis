@@ -1,0 +1,235 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11907134
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2000
+Dataset:          Summary File 3 (SF 3) - Sample Data
+Tables:
+
+      1. Sex By Age By Educational Attainment For The Population 18 Years And Over
+         Universe:  Population 18 years and over
+         Name:      PCT25
+         Variables:
+            PCT025001:   Total
+            PCT025002:      Male
+            PCT025003:         18 to 24 years
+            PCT025004:            Less than 9th grade
+            PCT025005:            9th to 12th grade, no diploma
+            PCT025006:            High school graduate (includes equivalency)
+            PCT025007:            Some college, no degree
+            PCT025008:            Associate degree
+            PCT025009:            Bachelor's degree
+            PCT025010:            Graduate or professional degree
+            PCT025011:         25 to 34 years
+            PCT025012:            Less than 9th grade
+            PCT025013:            9th to 12th grade, no diploma
+            PCT025014:            High school graduate (includes equivalency)
+            PCT025015:            Some college, no degree
+            PCT025016:            Associate degree
+            PCT025017:            Bachelor's degree
+            PCT025018:            Graduate or professional degree
+            PCT025019:         35 to 44 years
+            PCT025020:            Less than 9th grade
+            PCT025021:            9th to 12th grade, no diploma
+            PCT025022:            High school graduate (includes equivalency)
+            PCT025023:            Some college, no degree
+            PCT025024:            Associate degree
+            PCT025025:            Bachelor's degree
+            PCT025026:            Graduate or professional degree
+            PCT025027:         45 to 64 years
+            PCT025028:            Less than 9th grade
+            PCT025029:            9th to 12th grade, no diploma
+            PCT025030:            High school graduate (includes equivalency)
+            PCT025031:            Some college, no degree
+            PCT025032:            Associate degree
+            PCT025033:            Bachelor's degree
+            PCT025034:            Graduate or professional degree
+            PCT025035:         65 years and over
+            PCT025036:            Less than 9th grade
+            PCT025037:            9th to 12th grade, no diploma
+            PCT025038:            High school graduate (includes equivalency)
+            PCT025039:            Some college, no degree
+            PCT025040:            Associate degree
+            PCT025041:            Bachelor's degree
+            PCT025042:            Graduate or professional degree
+            PCT025043:      Female
+            PCT025044:         18 to 24 years
+            PCT025045:            Less than 9th grade
+            PCT025046:            9th to 12th grade, no diploma
+            PCT025047:            High school graduate (includes equivalency)
+            PCT025048:            Some college, no degree
+            PCT025049:            Associate degree
+            PCT025050:            Bachelor's degree
+            PCT025051:            Graduate or professional degree
+            PCT025052:         25 to 34 years
+            PCT025053:            Less than 9th grade
+            PCT025054:            9th to 12th grade, no diploma
+            PCT025055:            High school graduate (includes equivalency)
+            PCT025056:            Some college, no degree
+            PCT025057:            Associate degree
+            PCT025058:            Bachelor's degree
+            PCT025059:            Graduate or professional degree
+            PCT025060:         35 to 44 years
+            PCT025061:            Less than 9th grade
+            PCT025062:            9th to 12th grade, no diploma
+            PCT025063:            High school graduate (includes equivalency)
+            PCT025064:            Some college, no degree
+            PCT025065:            Associate degree
+            PCT025066:            Bachelor's degree
+            PCT025067:            Graduate or professional degree
+            PCT025068:         45 to 64 years
+            PCT025069:            Less than 9th grade
+            PCT025070:            9th to 12th grade, no diploma
+            PCT025071:            High school graduate (includes equivalency)
+            PCT025072:            Some college, no degree
+            PCT025073:            Associate degree
+            PCT025074:            Bachelor's degree
+            PCT025075:            Graduate or professional degree
+            PCT025076:         65 years and over
+            PCT025077:            Less than 9th grade
+            PCT025078:            9th to 12th grade, no diploma
+            PCT025079:            High school graduate (includes equivalency)
+            PCT025080:            Some college, no degree
+            PCT025081:            Associate degree
+            PCT025082:            Bachelor's degree
+            PCT025083:            Graduate or professional degree
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      ZCTA3:          ZIP Code Tabulation Area (3 digit)
+      ZCTA5:          ZIP Code Tabulation Area (5 digit)
+      PCT025001:      Population 18 years and over
+      PCT025002:      Population 18 years and over: Male
+      PCT025003:      Population 18 years and over: Male: 18 to 24 years
+      PCT025004:      Population 18 years and over: Male: 18 to 24 years: Less than 9th grade
+      PCT025005:      Population 18 years and over: Male: 18 to 24 years: 9th to 12th grade, no diploma
+      PCT025006:      Population 18 years and over: Male: 18 to 24 years: High school graduate (includes equivalency)
+      PCT025007:      Population 18 years and over: Male: 18 to 24 years: Some college, no degree
+      PCT025008:      Population 18 years and over: Male: 18 to 24 years: Associate degree
+      PCT025009:      Population 18 years and over: Male: 18 to 24 years: Bachelor's degree
+      PCT025010:      Population 18 years and over: Male: 18 to 24 years: Graduate or professional degree
+      PCT025011:      Population 18 years and over: Male: 25 to 34 years
+      PCT025012:      Population 18 years and over: Male: 25 to 34 years: Less than 9th grade
+      PCT025013:      Population 18 years and over: Male: 25 to 34 years: 9th to 12th grade, no diploma
+      PCT025014:      Population 18 years and over: Male: 25 to 34 years: High school graduate (includes equivalency)
+      PCT025015:      Population 18 years and over: Male: 25 to 34 years: Some college, no degree
+      PCT025016:      Population 18 years and over: Male: 25 to 34 years: Associate degree
+      PCT025017:      Population 18 years and over: Male: 25 to 34 years: Bachelor's degree
+      PCT025018:      Population 18 years and over: Male: 25 to 34 years: Graduate or professional degree
+      PCT025019:      Population 18 years and over: Male: 35 to 44 years
+      PCT025020:      Population 18 years and over: Male: 35 to 44 years: Less than 9th grade
+      PCT025021:      Population 18 years and over: Male: 35 to 44 years: 9th to 12th grade, no diploma
+      PCT025022:      Population 18 years and over: Male: 35 to 44 years: High school graduate (includes equivalency)
+      PCT025023:      Population 18 years and over: Male: 35 to 44 years: Some college, no degree
+      PCT025024:      Population 18 years and over: Male: 35 to 44 years: Associate degree
+      PCT025025:      Population 18 years and over: Male: 35 to 44 years: Bachelor's degree
+      PCT025026:      Population 18 years and over: Male: 35 to 44 years: Graduate or professional degree
+      PCT025027:      Population 18 years and over: Male: 45 to 64 years
+      PCT025028:      Population 18 years and over: Male: 45 to 64 years: Less than 9th grade
+      PCT025029:      Population 18 years and over: Male: 45 to 64 years: 9th to 12th grade, no diploma
+      PCT025030:      Population 18 years and over: Male: 45 to 64 years: High school graduate (includes equivalency)
+      PCT025031:      Population 18 years and over: Male: 45 to 64 years: Some college, no degree
+      PCT025032:      Population 18 years and over: Male: 45 to 64 years: Associate degree
+      PCT025033:      Population 18 years and over: Male: 45 to 64 years: Bachelor's degree
+      PCT025034:      Population 18 years and over: Male: 45 to 64 years: Graduate or professional degree
+      PCT025035:      Population 18 years and over: Male: 65 years and over
+      PCT025036:      Population 18 years and over: Male: 65 years and over: Less than 9th grade
+      PCT025037:      Population 18 years and over: Male: 65 years and over: 9th to 12th grade, no diploma
+      PCT025038:      Population 18 years and over: Male: 65 years and over: High school graduate (includes equivalency)
+      PCT025039:      Population 18 years and over: Male: 65 years and over: Some college, no degree
+      PCT025040:      Population 18 years and over: Male: 65 years and over: Associate degree
+      PCT025041:      Population 18 years and over: Male: 65 years and over: Bachelor's degree
+      PCT025042:      Population 18 years and over: Male: 65 years and over: Graduate or professional degree
+      PCT025043:      Population 18 years and over: Female
+      PCT025044:      Population 18 years and over: Female: 18 to 24 years
+      PCT025045:      Population 18 years and over: Female: 18 to 24 years: Less than 9th grade
+      PCT025046:      Population 18 years and over: Female: 18 to 24 years: 9th to 12th grade, no diploma
+      PCT025047:      Population 18 years and over: Female: 18 to 24 years: High school graduate (includes equivalency)
+      PCT025048:      Population 18 years and over: Female: 18 to 24 years: Some college, no degree
+      PCT025049:      Population 18 years and over: Female: 18 to 24 years: Associate degree
+      PCT025050:      Population 18 years and over: Female: 18 to 24 years: Bachelor's degree
+      PCT025051:      Population 18 years and over: Female: 18 to 24 years: Graduate or professional degree
+      PCT025052:      Population 18 years and over: Female: 25 to 34 years
+      PCT025053:      Population 18 years and over: Female: 25 to 34 years: Less than 9th grade
+      PCT025054:      Population 18 years and over: Female: 25 to 34 years: 9th to 12th grade, no diploma
+      PCT025055:      Population 18 years and over: Female: 25 to 34 years: High school graduate (includes equivalency)
+      PCT025056:      Population 18 years and over: Female: 25 to 34 years: Some college, no degree
+      PCT025057:      Population 18 years and over: Female: 25 to 34 years: Associate degree
+      PCT025058:      Population 18 years and over: Female: 25 to 34 years: Bachelor's degree
+      PCT025059:      Population 18 years and over: Female: 25 to 34 years: Graduate or professional degree
+      PCT025060:      Population 18 years and over: Female: 35 to 44 years
+      PCT025061:      Population 18 years and over: Female: 35 to 44 years: Less than 9th grade
+      PCT025062:      Population 18 years and over: Female: 35 to 44 years: 9th to 12th grade, no diploma
+      PCT025063:      Population 18 years and over: Female: 35 to 44 years: High school graduate (includes equivalency)
+      PCT025064:      Population 18 years and over: Female: 35 to 44 years: Some college, no degree
+      PCT025065:      Population 18 years and over: Female: 35 to 44 years: Associate degree
+      PCT025066:      Population 18 years and over: Female: 35 to 44 years: Bachelor's degree
+      PCT025067:      Population 18 years and over: Female: 35 to 44 years: Graduate or professional degree
+      PCT025068:      Population 18 years and over: Female: 45 to 64 years
+      PCT025069:      Population 18 years and over: Female: 45 to 64 years: Less than 9th grade
+      PCT025070:      Population 18 years and over: Female: 45 to 64 years: 9th to 12th grade, no diploma
+      PCT025071:      Population 18 years and over: Female: 45 to 64 years: High school graduate (includes equivalency)
+      PCT025072:      Population 18 years and over: Female: 45 to 64 years: Some college, no degree
+      PCT025073:      Population 18 years and over: Female: 45 to 64 years: Associate degree
+      PCT025074:      Population 18 years and over: Female: 45 to 64 years: Bachelor's degree
+      PCT025075:      Population 18 years and over: Female: 45 to 64 years: Graduate or professional degree
+      PCT025076:      Population 18 years and over: Female: 65 years and over
+      PCT025077:      Population 18 years and over: Female: 65 years and over: Less than 9th grade
+      PCT025078:      Population 18 years and over: Female: 65 years and over: 9th to 12th grade, no diploma
+      PCT025079:      Population 18 years and over: Female: 65 years and over: High school graduate (includes equivalency)
+      PCT025080:      Population 18 years and over: Female: 65 years and over: Some college, no degree
+      PCT025081:      Population 18 years and over: Female: 65 years and over: Associate degree
+      PCT025082:      Population 18 years and over: Female: 65 years and over: Bachelor's degree
+      PCT025083:      Population 18 years and over: Female: 65 years and over: Graduate or professional degree
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11907134
+
+If you have any questions contact info@socialexplorer.com

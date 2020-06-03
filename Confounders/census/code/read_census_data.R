@@ -46,8 +46,8 @@ make_start_structure <- function(zcta_list_path, start_year, end_year) {
 
 covar_structure <- yaml.load_file("census_list.yml")
 
-root_path <- "~/shared_space/ci3_confounders/social_explorer"
-merged_data <- make_start_structure("zcta_list.csv", 1999, 2016)
+root_path <- "../raw_data/raw_census/"
+merged_data <- make_start_structure("../raw_data/zcta_list.csv", 1999, 2016)
 for (var in names(covar_structure)) {
   rm(variable_data)
   print(var)
@@ -87,6 +87,6 @@ for (var in names(covar_structure)) {
   }
 }
 
-write.csv(merged_data, "census_zcta_uninterpolated.csv", row.names=F)
+write.csv(merged_data, "../processed_data/census_zcta_uninterpolated.csv", row.names=F)
 
 ###

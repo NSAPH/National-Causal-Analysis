@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11910217
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2000
+Dataset:          Summary File 1 (SF 1) - 100-Percent Data
+Tables:
+
+      1. Hispanic Or Latino By Race
+         Universe:  Total population
+         Name:      P8
+         Variables:
+            P008001:   Total
+            P008002:      Not Hispanic or Latino
+            P008003:         White alone
+            P008004:         Black or African American alone
+            P008005:         American Indian and Alaska Native alone
+            P008006:         Asian alone
+            P008007:         Native Hawaiian and Other Pacific Islander alone
+            P008008:         Some other race alone
+            P008009:         Two or more races
+            P008010:      Hispanic or Latino
+            P008011:         White alone
+            P008012:         Black or African American alone
+            P008013:         American Indian and Alaska Native alone
+            P008014:         Asian alone
+            P008015:         Native Hawaiian and Other Pacific Islander alone
+            P008016:         Some other race alone
+            P008017:         Two or more races
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      ZCTA3:          ZIP Code Tabulation Area (3 digit)
+      ZCTA5:          ZIP Code Tabulation Area (5 digit)
+      P008001:        Total population
+      P008002:        Not Hispanic or Latino
+      P008003:        Not Hispanic or Latino: White alone
+      P008004:        Not Hispanic or Latino: Black or African American alone
+      P008005:        Not Hispanic or Latino: American Indian and Alaska Native alone
+      P008006:        Not Hispanic or Latino: Asian alone
+      P008007:        Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+      P008008:        Not Hispanic or Latino: Some other race alone
+      P008009:        Not Hispanic or Latino: Two or more races
+      P008010:        Hispanic or Latino
+      P008011:        Hispanic or Latino: White alone
+      P008012:        Hispanic or Latino: Black or African American alone
+      P008013:        Hispanic or Latino: American Indian and Alaska Native alone
+      P008014:        Hispanic or Latino: Asian alone
+      P008015:        Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+      P008016:        Hispanic or Latino: Some other race alone
+      P008017:        Hispanic or Latino: Two or more races
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11910217
+
+If you have any questions contact info@socialexplorer.com

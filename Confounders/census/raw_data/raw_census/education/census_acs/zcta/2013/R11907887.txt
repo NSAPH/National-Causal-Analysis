@@ -1,0 +1,451 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11907887
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2013 (5-Year Estimates)
+Dataset:          American Community Survey Tables:  2009 -- 2013 (5-Year Estimates)
+Tables:
+
+      1. Sex by Age by Educational Attainment for the Population 18 Years and Over
+         Universe:  Universe:  Population 18 years and Over
+         Name:      B15001
+         Variables:
+            B15001001:   Total
+            B15001002:      Male:
+            B15001003:         18 to 24 Years
+            B15001004:            Less than 9th Grade
+            B15001005:            9th to 12th Grade, No Diploma
+            B15001006:            High School Graduate (Includes Equivalency)
+            B15001007:            Some College, No Degree
+            B15001008:            Associate's Degree
+            B15001009:            Bachelor's Degree
+            B15001010:            Graduate or Professional Degree
+            B15001011:         25 to 34 Years
+            B15001012:            Less than 9th Grade
+            B15001013:            9th to 12th Grade, No Diploma
+            B15001014:            High School Graduate (Includes Equivalency)
+            B15001015:            Some College, No Degree
+            B15001016:            Associate's Degree
+            B15001017:            Bachelor's Degree
+            B15001018:            Graduate or Professional Degree
+            B15001019:         35 to 44 Years
+            B15001020:            Less than 9th Grade
+            B15001021:            9th to 12th Grade, No Diploma
+            B15001022:            High School Graduate (Includes Equivalency)
+            B15001023:            Some College, No Degree
+            B15001024:            Associate's Degree
+            B15001025:            Bachelor's Degree
+            B15001026:            Graduate or Professional Degree
+            B15001027:         45 to 64 Years
+            B15001028:            Less than 9th Grade
+            B15001029:            9th to 12th Grade, No Diploma
+            B15001030:            High School Graduate (Includes Equivalency)
+            B15001031:            Some College, No Degree
+            B15001032:            Associate's Degree
+            B15001033:            Bachelor's Degree
+            B15001034:            Graduate or Professional Degree
+            B15001035:         65 Years and Over
+            B15001036:            Less than 9th Grade
+            B15001037:            9th to 12th Grade, No Diploma
+            B15001038:            High School Graduate (Includes Equivalency)
+            B15001039:            Some College, No Degree
+            B15001040:            Associate's Degree
+            B15001041:            Bachelor's Degree
+            B15001042:            Graduate or Professional Degree
+            B15001043:      Female:
+            B15001044:         18 to 24 Years
+            B15001045:            Less than 9th Grade
+            B15001046:            9th to 12th Grade, No Diploma
+            B15001047:            High School Graduate (Includes Equivalency)
+            B15001048:            Some College, No Degree
+            B15001049:            Associate's Degree
+            B15001050:            Bachelor's Degree
+            B15001051:            Graduate or Professional Degree
+            B15001052:         25 to 34 Years
+            B15001053:            Less than 9th Grade
+            B15001054:            9th to 12th Grade, No Diploma
+            B15001055:            High School Graduate (Includes Equivalency)
+            B15001056:            Some College, No Degree
+            B15001057:            Associate's Degree
+            B15001058:            Bachelor's Degree
+            B15001059:            Graduate or Professional Degree
+            B15001060:         35 to 44 Years
+            B15001061:            Less than 9th Grade
+            B15001062:            9th to 12th Grade, No Diploma
+            B15001063:            High School Graduate (Includes Equivalency)
+            B15001064:            Some College, No Degree
+            B15001065:            Associate's Degree
+            B15001066:            Bachelor's Degree
+            B15001067:            Graduate or Professional Degree
+            B15001068:         45 to 64 Years
+            B15001069:            Less than 9th Grade
+            B15001070:            9th to 12th Grade, No Diploma
+            B15001071:            High School Graduate (Includes Equivalency)
+            B15001072:            Some College, No Degree
+            B15001073:            Associate's Degree
+            B15001074:            Bachelor's Degree
+            B15001075:            Graduate or Professional Degree
+            B15001076:         65 Years and Over
+            B15001077:            Less than 9th Grade
+            B15001078:            9th to 12th Grade, No Diploma
+            B15001079:            High School Graduate (Includes Equivalency)
+            B15001080:            Some College, No Degree
+            B15001081:            Associate's Degree
+            B15001082:            Bachelor's Degree
+            B15001083:            Graduate or Professional Degree
+
+
+      2. Sex by Age by Educational Attainment for the Population 18 Years and Over
+         Universe:  Universe:  Population 18 years and Over
+         Name:      B15001_se
+         Variables:
+            B15001001s:   Std. Error: Total
+            B15001002s:      Std. Error: Male
+            B15001003s:         Std. Error: 18 to 24 Years
+            B15001004s:            Std. Error: Less than 9th Grade
+            B15001005s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001006s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001007s:            Std. Error: Some College, No Degree
+            B15001008s:            Std. Error: Associate's Degree
+            B15001009s:            Std. Error: Bachelor's Degree
+            B15001010s:            Std. Error: Graduate or Professional Degree
+            B15001011s:         Std. Error: 25 to 34 Years
+            B15001012s:            Std. Error: Less than 9th Grade
+            B15001013s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001014s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001015s:            Std. Error: Some College, No Degree
+            B15001016s:            Std. Error: Associate's Degree
+            B15001017s:            Std. Error: Bachelor's Degree
+            B15001018s:            Std. Error: Graduate or Professional Degree
+            B15001019s:         Std. Error: 35 to 44 Years
+            B15001020s:            Std. Error: Less than 9th Grade
+            B15001021s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001022s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001023s:            Std. Error: Some College, No Degree
+            B15001024s:            Std. Error: Associate's Degree
+            B15001025s:            Std. Error: Bachelor's Degree
+            B15001026s:            Std. Error: Graduate or Professional Degree
+            B15001027s:         Std. Error: 45 to 64 Years
+            B15001028s:            Std. Error: Less than 9th Grade
+            B15001029s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001030s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001031s:            Std. Error: Some College, No Degree
+            B15001032s:            Std. Error: Associate's Degree
+            B15001033s:            Std. Error: Bachelor's Degree
+            B15001034s:            Std. Error: Graduate or Professional Degree
+            B15001035s:         Std. Error: 65 Years and Over
+            B15001036s:            Std. Error: Less than 9th Grade
+            B15001037s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001038s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001039s:            Std. Error: Some College, No Degree
+            B15001040s:            Std. Error: Associate's Degree
+            B15001041s:            Std. Error: Bachelor's Degree
+            B15001042s:            Std. Error: Graduate or Professional Degree
+            B15001043s:      Std. Error: Female
+            B15001044s:         Std. Error: 18 to 24 Years
+            B15001045s:            Std. Error: Less than 9th Grade
+            B15001046s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001047s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001048s:            Std. Error: Some College, No Degree
+            B15001049s:            Std. Error: Associate's Degree
+            B15001050s:            Std. Error: Bachelor's Degree
+            B15001051s:            Std. Error: Graduate or Professional Degree
+            B15001052s:         Std. Error: 25 to 34 Years
+            B15001053s:            Std. Error: Less than 9th Grade
+            B15001054s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001055s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001056s:            Std. Error: Some College, No Degree
+            B15001057s:            Std. Error: Associate's Degree
+            B15001058s:            Std. Error: Bachelor's Degree
+            B15001059s:            Std. Error: Graduate or Professional Degree
+            B15001060s:         Std. Error: 35 to 44 Years
+            B15001061s:            Std. Error: Less than 9th Grade
+            B15001062s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001063s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001064s:            Std. Error: Some College, No Degree
+            B15001065s:            Std. Error: Associate's Degree
+            B15001066s:            Std. Error: Bachelor's Degree
+            B15001067s:            Std. Error: Graduate or Professional Degree
+            B15001068s:         Std. Error: 45 to 64 Years
+            B15001069s:            Std. Error: Less than 9th Grade
+            B15001070s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001071s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001072s:            Std. Error: Some College, No Degree
+            B15001073s:            Std. Error: Associate's Degree
+            B15001074s:            Std. Error: Bachelor's Degree
+            B15001075s:            Std. Error: Graduate or Professional Degree
+            B15001076s:         Std. Error: 65 Years and Over
+            B15001077s:            Std. Error: Less than 9th Grade
+            B15001078s:            Std. Error: 9th to 12th Grade, No Diploma
+            B15001079s:            Std. Error: High School Graduate (Includes Equivalency)
+            B15001080s:            Std. Error: Some College, No Degree
+            B15001081s:            Std. Error: Associate's Degree
+            B15001082s:            Std. Error: Bachelor's Degree
+            B15001083s:            Std. Error: Graduate or Professional Degree
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      B15001001:      Population 18 Years and Over
+      B15001002:      Population 18 Years and Over: Male
+      B15001003:      Population 18 Years and Over: Male: 18 to 24 Years
+      B15001004:      Population 18 Years and Over: Male: 18 to 24 Years: Less than 9th Grade
+      B15001005:      Population 18 Years and Over: Male: 18 to 24 Years: 9th to 12th Grade, No Diploma
+      B15001006:      Population 18 Years and Over: Male: 18 to 24 Years: High School Graduate (Includes Equivalency)
+      B15001007:      Population 18 Years and Over: Male: 18 to 24 Years: Some College, No Degree
+      B15001008:      Population 18 Years and Over: Male: 18 to 24 Years: Associate's Degree
+      B15001009:      Population 18 Years and Over: Male: 18 to 24 Years: Bachelor's Degree
+      B15001010:      Population 18 Years and Over: Male: 18 to 24 Years: Graduate or Professional Degree
+      B15001011:      Population 18 Years and Over: Male: 25 to 34 Years
+      B15001012:      Population 18 Years and Over: Male: 25 to 34 Years: Less than 9th Grade
+      B15001013:      Population 18 Years and Over: Male: 25 to 34 Years: 9th to 12th Grade, No Diploma
+      B15001014:      Population 18 Years and Over: Male: 25 to 34 Years: High School Graduate (Includes Equivalency)
+      B15001015:      Population 18 Years and Over: Male: 25 to 34 Years: Some College, No Degree
+      B15001016:      Population 18 Years and Over: Male: 25 to 34 Years: Associate's Degree
+      B15001017:      Population 18 Years and Over: Male: 25 to 34 Years: Bachelor's Degree
+      B15001018:      Population 18 Years and Over: Male: 25 to 34 Years: Graduate or Professional Degree
+      B15001019:      Population 18 Years and Over: Male: 35 to 44 Years
+      B15001020:      Population 18 Years and Over: Male: 35 to 44 Years: Less than 9th Grade
+      B15001021:      Population 18 Years and Over: Male: 35 to 44 Years: 9th to 12th Grade, No Diploma
+      B15001022:      Population 18 Years and Over: Male: 35 to 44 Years: High School Graduate (Includes Equivalency)
+      B15001023:      Population 18 Years and Over: Male: 35 to 44 Years: Some College, No Degree
+      B15001024:      Population 18 Years and Over: Male: 35 to 44 Years: Associate's Degree
+      B15001025:      Population 18 Years and Over: Male: 35 to 44 Years: Bachelor's Degree
+      B15001026:      Population 18 Years and Over: Male: 35 to 44 Years: Graduate or Professional Degree
+      B15001027:      Population 18 Years and Over: Male: 45 to 64 Years
+      B15001028:      Population 18 Years and Over: Male: 45 to 64 Years: Less than 9th Grade
+      B15001029:      Population 18 Years and Over: Male: 45 to 64 Years: 9th to 12th Grade, No Diploma
+      B15001030:      Population 18 Years and Over: Male: 45 to 64 Years: High School Graduate (Includes Equivalency)
+      B15001031:      Population 18 Years and Over: Male: 45 to 64 Years: Some College, No Degree
+      B15001032:      Population 18 Years and Over: Male: 45 to 64 Years: Associate's Degree
+      B15001033:      Population 18 Years and Over: Male: 45 to 64 Years: Bachelor's Degree
+      B15001034:      Population 18 Years and Over: Male: 45 to 64 Years: Graduate or Professional Degree
+      B15001035:      Population 18 Years and Over: Male: 65 Years and Over
+      B15001036:      Population 18 Years and Over: Male: 65 Years and Over: Less than 9th Grade
+      B15001037:      Population 18 Years and Over: Male: 65 Years and Over: 9th to 12th Grade, No Diploma
+      B15001038:      Population 18 Years and Over: Male: 65 Years and Over: High School Graduate (Includes Equivalency)
+      B15001039:      Population 18 Years and Over: Male: 65 Years and Over: Some College, No Degree
+      B15001040:      Population 18 Years and Over: Male: 65 Years and Over: Associate's Degree
+      B15001041:      Population 18 Years and Over: Male: 65 Years and Over: Bachelor's Degree
+      B15001042:      Population 18 Years and Over: Male: 65 Years and Over: Graduate or Professional Degree
+      B15001043:      Population 18 Years and Over: Female
+      B15001044:      Population 18 Years and Over: Female: 18 to 24 Years
+      B15001045:      Population 18 Years and Over: Female: 18 to 24 Years: Less than 9th Grade
+      B15001046:      Population 18 Years and Over: Female: 18 to 24 Years: 9th to 12th Grade, No Diploma
+      B15001047:      Population 18 Years and Over: Female: 18 to 24 Years: High School Graduate (Includes Equivalency)
+      B15001048:      Population 18 Years and Over: Female: 18 to 24 Years: Some College, No Degree
+      B15001049:      Population 18 Years and Over: Female: 18 to 24 Years: Associate's Degree
+      B15001050:      Population 18 Years and Over: Female: 18 to 24 Years: Bachelor's Degree
+      B15001051:      Population 18 Years and Over: Female: 18 to 24 Years: Graduate or Professional Degree
+      B15001052:      Population 18 Years and Over: Female: 25 to 34 Years
+      B15001053:      Population 18 Years and Over: Female: 25 to 34 Years: Less than 9th Grade
+      B15001054:      Population 18 Years and Over: Female: 25 to 34 Years: 9th to 12th Grade, No Diploma
+      B15001055:      Population 18 Years and Over: Female: 25 to 34 Years: High School Graduate (Includes Equivalency)
+      B15001056:      Population 18 Years and Over: Female: 25 to 34 Years: Some College, No Degree
+      B15001057:      Population 18 Years and Over: Female: 25 to 34 Years: Associate's Degree
+      B15001058:      Population 18 Years and Over: Female: 25 to 34 Years: Bachelor's Degree
+      B15001059:      Population 18 Years and Over: Female: 25 to 34 Years: Graduate or Professional Degree
+      B15001060:      Population 18 Years and Over: Female: 35 to 44 Years
+      B15001061:      Population 18 Years and Over: Female: 35 to 44 Years: Less than 9th Grade
+      B15001062:      Population 18 Years and Over: Female: 35 to 44 Years: 9th to 12th Grade, No Diploma
+      B15001063:      Population 18 Years and Over: Female: 35 to 44 Years: High School Graduate (Includes Equivalency)
+      B15001064:      Population 18 Years and Over: Female: 35 to 44 Years: Some College, No Degree
+      B15001065:      Population 18 Years and Over: Female: 35 to 44 Years: Associate's Degree
+      B15001066:      Population 18 Years and Over: Female: 35 to 44 Years: Bachelor's Degree
+      B15001067:      Population 18 Years and Over: Female: 35 to 44 Years: Graduate or Professional Degree
+      B15001068:      Population 18 Years and Over: Female: 45 to 64 Years
+      B15001069:      Population 18 Years and Over: Female: 45 to 64 Years: Less than 9th Grade
+      B15001070:      Population 18 Years and Over: Female: 45 to 64 Years: 9th to 12th Grade, No Diploma
+      B15001071:      Population 18 Years and Over: Female: 45 to 64 Years: High School Graduate (Includes Equivalency)
+      B15001072:      Population 18 Years and Over: Female: 45 to 64 Years: Some College, No Degree
+      B15001073:      Population 18 Years and Over: Female: 45 to 64 Years: Associate's Degree
+      B15001074:      Population 18 Years and Over: Female: 45 to 64 Years: Bachelor's Degree
+      B15001075:      Population 18 Years and Over: Female: 45 to 64 Years: Graduate or Professional Degree
+      B15001076:      Population 18 Years and Over: Female: 65 Years and Over
+      B15001077:      Population 18 Years and Over: Female: 65 Years and Over: Less than 9th Grade
+      B15001078:      Population 18 Years and Over: Female: 65 Years and Over: 9th to 12th Grade, No Diploma
+      B15001079:      Population 18 Years and Over: Female: 65 Years and Over: High School Graduate (Includes Equivalency)
+      B15001080:      Population 18 Years and Over: Female: 65 Years and Over: Some College, No Degree
+      B15001081:      Population 18 Years and Over: Female: 65 Years and Over: Associate's Degree
+      B15001082:      Population 18 Years and Over: Female: 65 Years and Over: Bachelor's Degree
+      B15001083:      Population 18 Years and Over: Female: 65 Years and Over: Graduate or Professional Degree
+      B15001001s:     Std. Error: Population 18 Years and Over
+      B15001002s:     Std. Error: Population 18 Years and Over: Male
+      B15001003s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years
+      B15001004s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years: Less than 9th Grade
+      B15001005s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years: 9th to 12th Grade, No Diploma
+      B15001006s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years: High School Graduate (Includes Equivalency)
+      B15001007s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years: Some College, No Degree
+      B15001008s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years: Associate's Degree
+      B15001009s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years: Bachelor's Degree
+      B15001010s:     Std. Error: Population 18 Years and Over: Male: 18 to 24 Years: Graduate or Professional Degree
+      B15001011s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years
+      B15001012s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years: Less than 9th Grade
+      B15001013s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years: 9th to 12th Grade, No Diploma
+      B15001014s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years: High School Graduate (Includes Equivalency)
+      B15001015s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years: Some College, No Degree
+      B15001016s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years: Associate's Degree
+      B15001017s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years: Bachelor's Degree
+      B15001018s:     Std. Error: Population 18 Years and Over: Male: 25 to 34 Years: Graduate or Professional Degree
+      B15001019s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years
+      B15001020s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years: Less than 9th Grade
+      B15001021s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years: 9th to 12th Grade, No Diploma
+      B15001022s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years: High School Graduate (Includes Equivalency)
+      B15001023s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years: Some College, No Degree
+      B15001024s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years: Associate's Degree
+      B15001025s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years: Bachelor's Degree
+      B15001026s:     Std. Error: Population 18 Years and Over: Male: 35 to 44 Years: Graduate or Professional Degree
+      B15001027s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years
+      B15001028s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years: Less than 9th Grade
+      B15001029s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years: 9th to 12th Grade, No Diploma
+      B15001030s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years: High School Graduate (Includes Equivalency)
+      B15001031s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years: Some College, No Degree
+      B15001032s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years: Associate's Degree
+      B15001033s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years: Bachelor's Degree
+      B15001034s:     Std. Error: Population 18 Years and Over: Male: 45 to 64 Years: Graduate or Professional Degree
+      B15001035s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over
+      B15001036s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over: Less than 9th Grade
+      B15001037s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over: 9th to 12th Grade, No Diploma
+      B15001038s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over: High School Graduate (Includes Equivalency)
+      B15001039s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over: Some College, No Degree
+      B15001040s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over: Associate's Degree
+      B15001041s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over: Bachelor's Degree
+      B15001042s:     Std. Error: Population 18 Years and Over: Male: 65 Years and Over: Graduate or Professional Degree
+      B15001043s:     Std. Error: Population 18 Years and Over: Female
+      B15001044s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years
+      B15001045s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years: Less than 9th Grade
+      B15001046s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years: 9th to 12th Grade, No Diploma
+      B15001047s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years: High School Graduate (Includes Equivalency)
+      B15001048s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years: Some College, No Degree
+      B15001049s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years: Associate's Degree
+      B15001050s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years: Bachelor's Degree
+      B15001051s:     Std. Error: Population 18 Years and Over: Female: 18 to 24 Years: Graduate or Professional Degree
+      B15001052s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years
+      B15001053s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years: Less than 9th Grade
+      B15001054s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years: 9th to 12th Grade, No Diploma
+      B15001055s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years: High School Graduate (Includes Equivalency)
+      B15001056s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years: Some College, No Degree
+      B15001057s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years: Associate's Degree
+      B15001058s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years: Bachelor's Degree
+      B15001059s:     Std. Error: Population 18 Years and Over: Female: 25 to 34 Years: Graduate or Professional Degree
+      B15001060s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years
+      B15001061s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years: Less than 9th Grade
+      B15001062s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years: 9th to 12th Grade, No Diploma
+      B15001063s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years: High School Graduate (Includes Equivalency)
+      B15001064s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years: Some College, No Degree
+      B15001065s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years: Associate's Degree
+      B15001066s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years: Bachelor's Degree
+      B15001067s:     Std. Error: Population 18 Years and Over: Female: 35 to 44 Years: Graduate or Professional Degree
+      B15001068s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years
+      B15001069s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years: Less than 9th Grade
+      B15001070s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years: 9th to 12th Grade, No Diploma
+      B15001071s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years: High School Graduate (Includes Equivalency)
+      B15001072s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years: Some College, No Degree
+      B15001073s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years: Associate's Degree
+      B15001074s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years: Bachelor's Degree
+      B15001075s:     Std. Error: Population 18 Years and Over: Female: 45 to 64 Years: Graduate or Professional Degree
+      B15001076s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over
+      B15001077s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over: Less than 9th Grade
+      B15001078s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over: 9th to 12th Grade, No Diploma
+      B15001079s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over: High School Graduate (Includes Equivalency)
+      B15001080s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over: Some College, No Degree
+      B15001081s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over: Associate's Degree
+      B15001082s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over: Bachelor's Degree
+      B15001083s:     Std. Error: Population 18 Years and Over: Female: 65 Years and Over: Graduate or Professional Degree
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11907887
+
+If you have any questions contact info@socialexplorer.com

@@ -1,0 +1,179 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11908089
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2013 (5-Year Estimates)
+Dataset:          American Community Survey Tables:  2009 -- 2013 (5-Year Estimates)
+Tables:
+
+      1. Household Type by Tenure
+         Universe:  Universe:  Households
+         Name:      B11012
+         Variables:
+            B11012001:   Total
+            B11012002:      Family Households
+            B11012003:         Married-Couple Family
+            B11012004:            Owner-Occupied Housing Units
+            B11012005:            Renter-Occupied Housing Units
+            B11012006:         Other Family
+            B11012007:            Male Householder, No Wife Present
+            B11012008:               Owner-Occupied Housing Units
+            B11012009:               Renter-Occupied Housing Units
+            B11012010:            Female Householder, No Husband Present
+            B11012011:               Owner-Occupied Housing Units
+            B11012012:               Renter-Occupied Housing Units
+            B11012013:      Nonfamily Households
+            B11012014:         Owner-Occupied Housing Units
+            B11012015:         Renter-Occupied Housing Units
+
+
+      2. Household Type by Tenure
+         Universe:  Universe:  Households
+         Name:      B11012_se
+         Variables:
+            B11012001s:   Std. Error: Total
+            B11012002s:      Std. Error: Family Households
+            B11012003s:         Std. Error: Married-Couple Family
+            B11012004s:            Std. Error: Owner-Occupied Housing Units
+            B11012005s:            Std. Error: Renter-Occupied Housing Units
+            B11012006s:         Std. Error: Other Family
+            B11012007s:            Std. Error: Male Householder, No Wife Present
+            B11012008s:               Std. Error: Owner-Occupied Housing Units
+            B11012009s:               Std. Error: Renter-Occupied Housing Units
+            B11012010s:            Std. Error: Female Householder, No Husband Present
+            B11012011s:               Std. Error: Owner-Occupied Housing Units
+            B11012012s:               Std. Error: Renter-Occupied Housing Units
+            B11012013s:      Std. Error: Nonfamily Households
+            B11012014s:         Std. Error: Owner-Occupied Housing Units
+            B11012015s:         Std. Error: Renter-Occupied Housing Units
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      B11012001:      Households
+      B11012002:      Households: Family Households
+      B11012003:      Households: Family Households: Married-Couple Family
+      B11012004:      Households: Family Households: Married-Couple Family: Owner-Occupied Housing Units
+      B11012005:      Households: Family Households: Married-Couple Family: Renter-Occupied Housing Units
+      B11012006:      Households: Family Households: Other Family
+      B11012007:      Households: Family Households: Other Family: Male Householder, No Wife Present
+      B11012008:      Households: Family Households: Other Family: Male Householder, No Wife Present: Owner-Occupied Housing Units
+      B11012009:      Households: Family Households: Other Family: Male Householder, No Wife Present: Renter-Occupied Housing Units
+      B11012010:      Households: Family Households: Other Family: Female Householder, No Husband Present
+      B11012011:      Households: Family Households: Other Family: Female Householder, No Husband Present: Owner-Occupied Housing Units
+      B11012012:      Households: Family Households: Other Family: Female Householder, No Husband Present: Renter-Occupied Housing Units
+      B11012013:      Households: Nonfamily Households
+      B11012014:      Households: Nonfamily Households: Owner-Occupied Housing Units
+      B11012015:      Households: Nonfamily Households: Renter-Occupied Housing Units
+      B11012001s:     Std. Error: Households
+      B11012002s:     Std. Error: Households: Family Households
+      B11012003s:     Std. Error: Households: Family Households: Married-Couple Family
+      B11012004s:     Std. Error: Households: Family Households: Married-Couple Family: Owner-Occupied Housing Units
+      B11012005s:     Std. Error: Households: Family Households: Married-Couple Family: Renter-Occupied Housing Units
+      B11012006s:     Std. Error: Households: Family Households: Other Family
+      B11012007s:     Std. Error: Households: Family Households: Other Family: Male Householder, No Wife Present
+      B11012008s:     Std. Error: Households: Family Households: Other Family: Male Householder, No Wife Present: Owner-Occupied Housing Units
+      B11012009s:     Std. Error: Households: Family Households: Other Family: Male Householder, No Wife Present: Renter-Occupied Housing Units
+      B11012010s:     Std. Error: Households: Family Households: Other Family: Female Householder, No Husband Present
+      B11012011s:     Std. Error: Households: Family Households: Other Family: Female Householder, No Husband Present: Owner-Occupied Housing Units
+      B11012012s:     Std. Error: Households: Family Households: Other Family: Female Householder, No Husband Present: Renter-Occupied Housing Units
+      B11012013s:     Std. Error: Households: Nonfamily Households
+      B11012014s:     Std. Error: Households: Nonfamily Households: Owner-Occupied Housing Units
+      B11012015s:     Std. Error: Households: Nonfamily Households: Renter-Occupied Housing Units
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11908089
+
+If you have any questions contact info@socialexplorer.com

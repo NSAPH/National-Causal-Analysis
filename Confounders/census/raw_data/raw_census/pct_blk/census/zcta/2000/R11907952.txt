@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11907952
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2000
+Dataset:          Summary File 1 (SF 1) - 100-Percent Data
+Tables:
+
+      1. Race
+         Universe:  Total population
+         Name:      P7
+         Variables:
+            P007001:   Total
+            P007002:      White alone
+            P007003:      Black or African American alone
+            P007004:      American Indian and Alaska Native alone
+            P007005:      Asian alone
+            P007006:      Native Hawaiian and Other Pacific Islander alone
+            P007007:      Some other race alone
+            P007008:      Two or more races
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      ZCTA3:          ZIP Code Tabulation Area (3 digit)
+      ZCTA5:          ZIP Code Tabulation Area (5 digit)
+      P007001:        Total population
+      P007002:        White alone
+      P007003:        Black or African American alone
+      P007004:        American Indian and Alaska Native alone
+      P007005:        Asian alone
+      P007006:        Native Hawaiian and Other Pacific Islander alone
+      P007007:        Some other race alone
+      P007008:        Two or more races
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11907952
+
+If you have any questions contact info@socialexplorer.com

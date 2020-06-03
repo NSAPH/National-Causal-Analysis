@@ -1,0 +1,7 @@
+Created by Fei Carnes
+Created on Dec 4, 2018
+
+The folder contains variable at zcta level from 2009 - 2016 
+
+2009 - 2010: variable is calculated from block group level American Community Survey data in R.
+2011 - 2016: variable is directly downloaded from social explorer webiste.

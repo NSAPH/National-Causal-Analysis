@@ -1,0 +1,143 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11905822
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2013 (5-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2013 (5-Year Estimates)
+Tables:
+
+      1. Poverty Status in 2013 for Children Under 18
+         Universe:  Population Under 18 Years of Age for whom poverty status Is determined
+         Name:      T114
+         Variables:
+            T114_001:   Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+            T114_002:      Living in Poverty
+            T114_003:      At or Above Poverty Level
+
+
+      2. Poverty Status in 2013 for Population Age 18 to 64
+         Universe:  Population Age 18 to 64 for whom poverty status Is determined
+         Name:      T115
+         Variables:
+            T115_001:   Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+            T115_002:      Living in Poverty
+            T115_003:      At or Above Poverty Level
+
+
+      3. Poverty Status in 2013 for Population Age 65 and Over
+         Universe:  Population Age 65 and Over for whom poverty status Is determined
+         Name:      T116
+         Variables:
+            T116_001:   Population Age 65 and Over for Whom Poverty  Status Is Determined:
+            T116_002:      Living in Poverty
+            T116_003:      At or Above Poverty Level
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      T114_001:       Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+      T114_002:       Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      T114_003:       Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      T115_001:       Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+      T115_002:       Population Age 18 to 64 for Whom Poverty Status  Is Determined: Living in Poverty
+      T115_003:       Population Age 18 to 64 for Whom Poverty Status  Is Determined: At or Above Poverty Level
+      T116_001:       Population Age 65 and Over for Whom Poverty  Status Is Determined:
+      T116_002:       Population Age 65 and Over for Whom Poverty  Status Is Determined: Living in Poverty
+      T116_003:       Population Age 65 and Over for Whom Poverty  Status Is Determined: At or Above Poverty Level
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11905822
+
+If you have any questions contact info@socialexplorer.com

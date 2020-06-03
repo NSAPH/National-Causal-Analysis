@@ -1,0 +1,315 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11908102
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2015 (5-Year Estimates)
+Dataset:          American Community Survey Tables:  2011 -- 2015 (5-Year Estimates)
+Tables:
+
+      1. Tenure by Household Type (Including Living Alone) and Age of Householder
+         Universe:  Universe:  Occupied housing units
+         Name:      B25011
+         Variables:
+            B25011001:   Total
+            B25011002:      Owner Occupied
+            B25011003:         Family Households
+            B25011004:            Married-Couple Family
+            B25011005:               Householder 15 to 34 Years
+            B25011006:               Householder 35 to 64 Years
+            B25011007:               Householder 65 Years and Over
+            B25011008:            Other Family
+            B25011009:               Male Householder, No Wife Present
+            B25011010:                  Householder 15 to 34 Years
+            B25011011:                  Householder 35 to 64 Years
+            B25011012:                  Householder 65 Years and Over
+            B25011013:               Female Householder, No Husband Present
+            B25011014:                  Householder 15 to 34 Years
+            B25011015:                  Householder 35 to 64 Years
+            B25011016:                  Householder 65 Years and Over
+            B25011017:         Nonfamily Households
+            B25011018:            Householder Living Alone
+            B25011019:               Householder 15 to 34 Years
+            B25011020:               Householder 35 to 64 Years
+            B25011021:               Householder 65 Years and Over
+            B25011022:            Householder Not Living Alone
+            B25011023:               Householder 15 to 34 Years
+            B25011024:               Householder 35 to 64 Years
+            B25011025:               Householder 65 Years and Over
+            B25011026:      Renter Occupied
+            B25011027:         Family Households
+            B25011028:            Married-Couple Family
+            B25011029:               Householder 15 to 34 Years
+            B25011030:               Householder 35 to 64 Years
+            B25011031:               Householder 65 Years and Over
+            B25011032:            Other Family
+            B25011033:               Male Householder, No Wife Present
+            B25011034:                  Householder 15 to 34 Years
+            B25011035:                  Householder 35 to 64 Years
+            B25011036:                  Householder 65 Years and Over
+            B25011037:               Female Householder, No Husband Present
+            B25011038:                  Householder 15 to 34 Years
+            B25011039:                  Householder 35 to 64 Years
+            B25011040:                  Householder 65 Years and Over
+            B25011041:         Nonfamily Households
+            B25011042:            Householder Living Alone
+            B25011043:               Householder 15 to 34 Years
+            B25011044:               Householder 35 to 64 Years
+            B25011045:               Householder 65 Years and Over
+            B25011046:            Householder Not Living Alone
+            B25011047:               Householder 15 to 34 Years
+            B25011048:               Householder 35 to 64 Years
+            B25011049:               Householder 65 Years and Over
+
+
+      2. Tenure by Household Type (Including Living Alone) and Age of Householder
+         Universe:  Universe:  Occupied housing units
+         Name:      B25011_se
+         Variables:
+            B25011001s:   Std. Error: Total
+            B25011002s:      Std. Error: Owner Occupied
+            B25011003s:         Std. Error: Family Households
+            B25011004s:            Std. Error: Married-Couple Family
+            B25011005s:               Std. Error: Householder 15 to 34 Years
+            B25011006s:               Std. Error: Householder 35 to 64 Years
+            B25011007s:               Std. Error: Householder 65 Years and Over
+            B25011008s:            Std. Error: Other Family
+            B25011009s:               Std. Error: Male Householder, No Wife Present
+            B25011010s:                  Std. Error: Householder 15 to 34 Years
+            B25011011s:                  Std. Error: Householder 35 to 64 Years
+            B25011012s:                  Std. Error: Householder 65 Years and Over
+            B25011013s:               Std. Error: Female Householder, No Husband Present
+            B25011014s:                  Std. Error: Householder 15 to 34 Years
+            B25011015s:                  Std. Error: Householder 35 to 64 Years
+            B25011016s:                  Std. Error: Householder 65 Years and Over
+            B25011017s:         Std. Error: Nonfamily Households
+            B25011018s:            Std. Error: Householder Living Alone
+            B25011019s:               Std. Error: Householder 15 to 34 Years
+            B25011020s:               Std. Error: Householder 35 to 64 Years
+            B25011021s:               Std. Error: Householder 65 Years and Over
+            B25011022s:            Std. Error: Householder Not Living Alone
+            B25011023s:               Std. Error: Householder 15 to 34 Years
+            B25011024s:               Std. Error: Householder 35 to 64 Years
+            B25011025s:               Std. Error: Householder 65 Years and Over
+            B25011026s:      Std. Error: Renter Occupied
+            B25011027s:         Std. Error: Family Households
+            B25011028s:            Std. Error: Married-Couple Family
+            B25011029s:               Std. Error: Householder 15 to 34 Years
+            B25011030s:               Std. Error: Householder 35 to 64 Years
+            B25011031s:               Std. Error: Householder 65 Years and Over
+            B25011032s:            Std. Error: Other Family
+            B25011033s:               Std. Error: Male Householder, No Wife Present
+            B25011034s:                  Std. Error: Householder 15 to 34 Years
+            B25011035s:                  Std. Error: Householder 35 to 64 Years
+            B25011036s:                  Std. Error: Householder 65 Years and Over
+            B25011037s:               Std. Error: Female Householder, No Husband Present
+            B25011038s:                  Std. Error: Householder 15 to 34 Years
+            B25011039s:                  Std. Error: Householder 35 to 64 Years
+            B25011040s:                  Std. Error: Householder 65 Years and Over
+            B25011041s:         Std. Error: Nonfamily Households
+            B25011042s:            Std. Error: Householder Living Alone
+            B25011043s:               Std. Error: Householder 15 to 34 Years
+            B25011044s:               Std. Error: Householder 35 to 64 Years
+            B25011045s:               Std. Error: Householder 65 Years and Over
+            B25011046s:            Std. Error: Householder Not Living Alone
+            B25011047s:               Std. Error: Householder 15 to 34 Years
+            B25011048s:               Std. Error: Householder 35 to 64 Years
+            B25011049s:               Std. Error: Householder 65 Years and Over
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      B25011001:      Occupied Housing Units
+      B25011002:      Occupied Housing Units: Owner Occupied
+      B25011003:      Occupied Housing Units: Owner Occupied: Family Households
+      B25011004:      Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family
+      B25011005:      Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      B25011006:      Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      B25011007:      Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family: Householder 65 Years and Over
+      B25011008:      Occupied Housing Units: Owner Occupied: Family Households: Other Family
+      B25011009:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present
+      B25011010:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      B25011011:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      B25011012:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      B25011013:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present
+      B25011014:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      B25011015:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      B25011016:      Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      B25011017:      Occupied Housing Units: Owner Occupied: Nonfamily Households
+      B25011018:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone
+      B25011019:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      B25011020:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      B25011021:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      B25011022:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone
+      B25011023:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      B25011024:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      B25011025:      Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      B25011026:      Occupied Housing Units: Renter Occupied
+      B25011027:      Occupied Housing Units: Renter Occupied: Family Households
+      B25011028:      Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family
+      B25011029:      Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      B25011030:      Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      B25011031:      Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family: Householder 65 Years and Over
+      B25011032:      Occupied Housing Units: Renter Occupied: Family Households: Other Family
+      B25011033:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present
+      B25011034:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      B25011035:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      B25011036:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      B25011037:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present
+      B25011038:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      B25011039:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      B25011040:      Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      B25011041:      Occupied Housing Units: Renter Occupied: Nonfamily Households
+      B25011042:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone
+      B25011043:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      B25011044:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      B25011045:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      B25011046:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone
+      B25011047:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      B25011048:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      B25011049:      Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      B25011001s:     Std. Error: Occupied Housing Units
+      B25011002s:     Std. Error: Occupied Housing Units: Owner Occupied
+      B25011003s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households
+      B25011004s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family
+      B25011005s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      B25011006s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      B25011007s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Married-Couple Family: Householder 65 Years and Over
+      B25011008s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family
+      B25011009s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present
+      B25011010s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      B25011011s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      B25011012s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      B25011013s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present
+      B25011014s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      B25011015s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      B25011016s:     Std. Error: Occupied Housing Units: Owner Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      B25011017s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households
+      B25011018s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone
+      B25011019s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      B25011020s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      B25011021s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      B25011022s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone
+      B25011023s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      B25011024s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      B25011025s:     Std. Error: Occupied Housing Units: Owner Occupied: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      B25011026s:     Std. Error: Occupied Housing Units: Renter Occupied
+      B25011027s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households
+      B25011028s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family
+      B25011029s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      B25011030s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      B25011031s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Married-Couple Family: Householder 65 Years and Over
+      B25011032s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family
+      B25011033s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present
+      B25011034s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      B25011035s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      B25011036s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      B25011037s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present
+      B25011038s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      B25011039s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      B25011040s:     Std. Error: Occupied Housing Units: Renter Occupied: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      B25011041s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households
+      B25011042s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone
+      B25011043s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      B25011044s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      B25011045s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      B25011046s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone
+      B25011047s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      B25011048s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      B25011049s:     Std. Error: Occupied Housing Units: Renter Occupied: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2018
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11908102
+
+If you have any questions contact info@socialexplorer.com
