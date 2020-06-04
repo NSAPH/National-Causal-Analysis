@@ -25,7 +25,7 @@ threads_fst(nr_of_threads = nthreads)
 
 
 ## split the data (slow, but we only have to do it once...
-hfile <- "/nfs/nsaph_ci3/ci3_health_data/medicare/mortality/1999_2016/unmerged_data/Denominator_1999_2016.csv"
+hfile <- "../HealthOutcomes/Denominator_1999_2016.csv"
 
 start <- setwd(sharddir)
 shard <- mclapply(
