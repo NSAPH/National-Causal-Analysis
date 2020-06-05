@@ -1,187 +1,79 @@
 NSAPH 1999 through 2016 Data Merge
 ================
-Ista Zahn and Ben Sabath
-Initial: 05/02/2019, Updated November 01, 2019
+Ben Sabath
+June 05, 2020
 
-## Update October/November 2019
+The code in this directory cleans and merges exposure, covariate, and
+health data to produce combined data sets covering the period from
+1999-2016 that can be used to estimate the effects of air quality
+exposures on health outcomes.
 
-By Ben Sabath
+## Inputs
 
-A number of researchers pointed out an issue with individuals having
-multiple dates of death recorded in the merged data. To prevent
-researchers from having to adjust for these individuals in all of their
-work, a second version of the data was created using the code in
-[9\_remove\_varying\_deaths.R](code/9_remove_varying_deaths.R) which
-identifies individuals with multiple death days and removes them from
-the data set. 34899 unique individuals were removed from the data set.
-Death dates in years not corresponding to the year of the observation
-were also set to be the empty string. Individuals who have died also
-have all future observations tied to them removed.
+As input to the merge the process takes the following files, produced in
+the other processes contained in this reposititory: -
+`Denominator_1999_2016.csv`: The medicare beneficiary enrollment file
+from 1999-2016. The code producing this is in the `HealthOutcomes`
+directory. We are unable to share this due to the private nature of the
+data. - `census_interpolated_zips.csv`: The interpolated census
+confounder data covering the period from 1999-2016. The code and source
+data producing this file is available in the `Confounders/census`
+directory. This file is too large to be shared on github in the form we
+merge. However, by running the provided code on the available source
+data, it can be recreated. - `brfss_interpolated.csv`: The interpolated
+BRFSS (county level smoking rate and mean BMI) data from 1999-2016. The
+workflow creating this file is in `Confounders/brfss`. The source data
+is too large to share on github; however, we provide instructions for
+downloading it, the code we use to create the final data set, and the
+final data set. - `all_years.csv`: This file contians estimates of
+annual pm2.5 exposure for each zip code covering the period from
+2000-2016. We do not yet have permission from Joel Schwartz to share
+this data, but a description of the creation of the data, and some
+secondary processing code are availabe in the `Exposures` directory. -
+`temperature_seasonal_zipcode_combined.csv`: This file contains summer
+and winter temperature and humidity covering the period from 2000 until
+the end of winter 2020. The workflow producint this data is available in
+`Confounders/earth_engine`. The source data is again too large to share,
+but we share the code we run on google earth engine to produce the data,
+as well as the rest of the code we use, and the final products.
 
-Additionally, [code](code/10_merge_seasonal_temperature.R) was written
-to merge in the newly created seasonal averages for temperature and
-humidity.
-
-The updated data is available at:
-`ci3_health_data/medicare/mortality/1999_2016/wu/cache_data/merged_by_year_v2`
-
-## Original Readme:
-
-The project cleans and merges exposure, covariate, and health data to
-produce combined data sets that can be used to estimate the effects of
-air quality exposures on health outcomes. It extends the work done in
-[exp\_covar\_health\_merge\_april2019](../exp_covar_health_merge_april2019/)
-to include all years from 1999 through 2016
-([exp\_covar\_health\_merge\_april2019](../exp_covar_health_merge_april2019/)
-only included 200 through 2012 for to facilitate comparisons to
-previously published work; see
-[exp\_covar\_health\_merge\_april2019/readme.html](../exp_covar_health_merge_april2019/readme.html)
-for details).
-
-# Workflow overview
+## Workflow overview
 
 The basic workflow is illustrated in the figure below.
 
-![](./doc/workflow_chart.png)
+![](./doc/merge_worflow.png)
 
-# Data dictionary and variable documentation
+The process is as follows. First, in `1_prep_health_data_to_fst.R`, the
+CSV file containing the health data is split in to multiple `.fst`
+files, one for each year. Next, we have to deal with duplicate
+individuals in the data set. Given that the data we receive from
+medicare is administrative in nature and not prepared for research, we
+observe some instances of the same individual appearing multiple times
+in a single year (which should not happen in the beneficiary summary
+data). `2_check_qid_dups.R` quantifies the scale of the duplicates, then
+`3_remove_dups and missing.R` removes the duplicates. The system for
+removing duplicates first removes observations with more missing
+information than other observations. Following that, of the remaining
+duplicates with equivalent levels of missingness, one observation is
+randomly selected to be kept. Next we prepare the confounder and
+exposure data sets for merging with the health data in
+`4_merge_coviariates.R`, where all of the confounders are merged on zip
+code and year so that only a single join needs to be performed with the
+larger health data set. We additionally calculate individual level
+variables here (first year that the individuals appear in the cohort,
+age at entry in to the cohort) that are needed in later analysis
+(`4_score_participant_variables.R`). The next step (`5_merge_health.R`)
+is the large merge, where we join the participant level variables with
+the person-year data in the benficiary summary file on individual ID and
+join the zip code level exposure and confounders with the beneficiary
+file on the basis of zip code of residence and year.
 
-Information about the source, processing, and values of each variable
-are available in the [codebook](./doc/codebook.csv). More detailed
-information about each variable, and a comparison with those produced
-for are available in the [descriptive
-statistics](./results/merged_stats_check.csv). \# Working with these
-data
-
-The data produced here are stored in a flat `.csv` file at
-`ci3_health_data/medicare/mortality/1999_2016/wu/output_data/health_confounder_exposure_1999_2016_merged.csv`.
-This file is however very large (around 310 GB) and may contain
-variables you are not interested in. If you are working with these data
-in R you can used the cached data stored in
-`ci3_health_data/medicare/mortality/1999_2016/wu/cache_data/merged_by_year`
-to selectively read columns much more quickly. The data in this
-directory are in `fst` format: see the [fst package
-website](https://www.fstpackage.org/) for details.
-
-The example below demonstrates how to work more efficiently with these
-data by reading in only select columns.
-
-First, get the list of files (there is one file per
-year).
-
-``` r
-f <- list.files("/nfs/nsaph_ci3/ci3_health_data/medicare/mortality/1999_2016/wu/cache_data/merged_by_year",
-                pattern = "\\.fst",
-                full.names = TRUE)
-```
-
-Next, get the list of available columns. Refer to the [descriptive
-statistics](./results/merged_stats_check.csv) for details.
-
-``` r
-library(fst)
-library(data.table)
-
-## the columns available are the same in each year.
-metadata_fst(f[[1]])
-```
-
-    ## <fst file>
-    ## 33565642 rows, 60 columns (confounder_exposure_merged_nodups_health_1999.fst)
-    ## 
-    ## * 'year'                        : integer
-    ## * 'zip'                         : integer
-    ## * 'qid'                         : character
-    ## * 'dodflag'                     : character
-    ## * 'bene_dod'                    : character
-    ## * 'sex'                         : integer
-    ## * 'race'                        : integer
-    ## * 'age'                         : integer
-    ## * 'hmo_mo'                      : character
-    ## * 'hmoind'                      : character
-    ## * 'statecode'                   : character
-    ## * 'latitude'                    : double
-    ## * 'longitude'                   : double
-    ## * 'dual'                        : character
-    ## * 'death'                       : integer
-    ## * 'dead'                        : logical
-    ## * 'entry_age'                   : integer
-    ## * 'entry_year'                  : integer
-    ## * 'entry_age_break'             : integer
-    ## * 'followup_year'               : double
-    ## * 'followup_year_plus_one'      : double
-    ## * 'pm25_ensemble'               : double
-    ## * 'pm25_no_interp'              : double
-    ## * 'pm25_nn'                     : double
-    ## * 'ozone'                       : double
-    ## * 'ozone_no_interp'             : double
-    ## * 'zcta'                        : integer
-    ## * 'poverty'                     : double
-    ## * 'popdensity'                  : double
-    ## * 'medianhousevalue'            : double
-    ## * 'pct_blk'                     : double
-    ## * 'medhouseholdincome'          : double
-    ## * 'pct_owner_occ'               : double
-    ## * 'hispanic'                    : double
-    ## * 'education'                   : double
-    ## * 'population'                  : double
-    ## * 'zcta_no_interp'              : integer
-    ## * 'poverty_no_interp'           : double
-    ## * 'popdensity_no_interp'        : double
-    ## * 'medianhousevalue_no_interp'  : double
-    ## * 'pct_blk_no_interp'           : double
-    ## * 'medhouseholdincome_no_interp': double
-    ## * 'pct_owner_occ_no_interp'     : double
-    ## * 'hispanic_no_interp'          : double
-    ## * 'education_no_interp'         : double
-    ## * 'population_no_interp'        : integer
-    ## * 'smoke_rate'                  : double
-    ## * 'mean_bmi'                    : double
-    ## * 'smoke_rate_no_interp'        : double
-    ## * 'mean_bmi_no_interp'          : double
-    ## * 'amb_visit_pct'               : double
-    ## * 'a1c_exm_pct'                 : double
-    ## * 'amb_visit_pct_no_interp'     : double
-    ## * 'a1c_exm_pct_no_interp'       : double
-    ## * 'tmmx'                        : double
-    ## * 'rmax'                        : double
-    ## * 'pr'                          : double (key 1)
-    ## * 'cluster_cat'                 : character
-    ## * 'fips_no_interp'              : integer
-    ## * 'fips'                        : integer (key 2)
-
-Finally, selectively read in just those columns needed for your analysis
-using code snippet below.
-
-``` r
-myvars <- c("year", "zcta", "age")
-exd <- rbindlist(lapply(f[1:5],
-                        read_fst,
-                        columns = myvars,
-                        as.data.table=TRUE))
-```
-
-Since we only read in a few columns, this operation is (relatively) fast
-and takes less than 10 GB of memory (reading more columns will of course
-take more resources).
-
-If you wish to work with regular R `data.frame` instead of `data.table`,
-it is still recommended to use the `as.data.table = TRUE` argument to
-`read_fst`. You can convert the result to a `data.frame` after the
-`rbindlist` part if you wish:
-
-``` r
-setDF(exd)
-str(exd)
-```
-
-    ## 'data.frame':    170040022 obs. of  3 variables:
-    ##  $ year: int  1999 1999 1999 1999 1999 1999 1999 1999 1999 1999 ...
-    ##  $ zcta: int  NA NA NA NA NA NA NA NA NA NA ...
-    ##  $ age : int  72 72 72 71 98 75 98 67 81 98 ...
-
-# Questions or comments
-
-Questions or comments about these data or the process used to create
-them should be reported [on the github issue
-tracker](https://github.com/NSAPH/data_requests/issues).
+Following this step and after initially using this data in our analysis,
+we observed that some individuals in the cohort had multiple days of
+death on record. The code in `6_remove_varying_deaths.R` excludes these
+individuals entirely from our data set, as we cannot be confident about
+which is the true date of death. Finally, we realized that seasonal
+temperature and humidity data would also improve our analysis, so in
+`7_merge_seasonal_temperature.R` we add those variables in. **The files
+produced at the end of this script are what are used as input for the
+statistical analysis.**

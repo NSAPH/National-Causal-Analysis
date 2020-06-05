@@ -1,7 +1,7 @@
 Temperature, Humidity, Preceipitation Earth Engine Data
 ================
 Ben Sabath
-June 03, 2020
+June 04, 2020
 
 ## Summary
 
@@ -48,9 +48,9 @@ studies, and use to calculate the seasonal averages
 ## Output Temperature Data
 
 This directory should contain the output of the entire earth engine
-pipeline. Due to Github’s storage constraints, we only include the data
-sets ultimately used in the final analysis here. All data covers the
-period from Jan 1, 2000 to April 30th, 2020.
+pipeline. Due to Github’s storage constraints, we only include the
+annual data and the seasonal data ultimately used in the final analysis
+here. All data covers the period from Jan 1, 2000 to April 30th, 2020.
 
 Those two data sets are as follows: -
 `temperature_seasonal_zipcode_combined.csv`: Winter and summer mean

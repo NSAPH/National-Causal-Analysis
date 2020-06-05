@@ -36,7 +36,7 @@ seasonal averages (`code/6_calculate_seasonal_averages`)used in our study as wel
 ## Output Temperature Data
 
 This directory should contain the output of the entire earth engine pipeline. Due to Github's 
-storage constraints, we only include the data sets ultimately used in the final analysis here. All data covers the period from Jan 1, 2000 to April 30th, 2020.
+storage constraints, we only include the annual data and the seasonal data ultimately used in the final analysis here. All data covers the period from Jan 1, 2000 to April 30th, 2020.
 
 Those two data sets are as follows:
 - `temperature_seasonal_zipcode_combined.csv`: Winter and summer mean daily max temperature and max relative humidity for all zip codes. Polygons are used to define zip code areas for area weighted means where possible, otherwise centroid estimates are used.
