@@ -12,15 +12,15 @@ the present.
 
 To recreate the pipeline to get the GRIDMET temperature data from google
 earth engine there are two major steps. The first step involves using
-google earth engine to aggregate the source data (splitting up the data
-in to multiple files so that it can all be processed) to the zip code
+Google Earth Engine to aggregate the source data (splitting up the data
+into multiple files so that it can all be processed) to the zip code
 level and downloading the data. In the second step, we combine the
 downloaded files in to large single files and calculate seasonal and
 annual averages.
 
 ## Download steps
 
-First, upload zip code shape files too google earth engine, we used the
+First, upload zip code shape files too Google Earth Engine, we used the
 zip code centroids and polygons from ESRI for this. Google Earth Engine
 doesn’t provide a means for direct download, so the final output files
 are exported to Google Drive. They then must be individually downloaded
@@ -35,8 +35,8 @@ prepare those data for export to google drive.
 First, we combine the daily files for each year for each zip code
 geography (`code/3_summarize_point_data.R`,
 `code/summarize_polygon_data.T`) in to a single file. We also separately
-calculate annual averages for each zip code at this time. As the polygon
-zip code file only includes zip codes with non-zero area there are
+calculate annual averages for each zip code at this time. The polygon
+zip code file only includes zip codes with non-zero area, resulting in
 around 8,000 fewer zip codes listed in that dataset. To resolve this
 issue, we create a combined file (`code/5_combine_zips.R`)where we use
 the centroid zip code estimate for all zip codes not present in the
