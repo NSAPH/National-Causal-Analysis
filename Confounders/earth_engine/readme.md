@@ -1,7 +1,7 @@
 Temperature, Humidity, Preceipitation Earth Engine Data
 ================
 Ben Sabath
-June 04, 2020
+June 09, 2020
 
 ## Summary
 
@@ -10,8 +10,8 @@ Idaho’s GRIDMET project. We access it using Google Earth Engine, where
 it is available as daily 4km x 4km rasters from January 1st, 2000 until
 the present.
 
-To recreate the pipeline to get the GRIDMET temperature data from google
-earth engine there are two major steps. The first step involves using
+To recreate the pipeline to get the GRIDMET temperature data from Google
+Earth Engine there are two major steps. The first step involves using
 Google Earth Engine to aggregate the source data (splitting up the data
 into multiple files so that it can all be processed) to the zip code
 level and downloading the data. In the second step, we combine the
@@ -20,7 +20,7 @@ annual averages.
 
 ## Download steps
 
-First, upload zip code shape files too Google Earth Engine, we used the
+First, upload zip code shape files to Google Earth Engine, we used the
 zip code centroids and polygons from ESRI for this. Google Earth Engine
 doesn’t provide a means for direct download, so the final output files
 are exported to Google Drive. They then must be individually downloaded

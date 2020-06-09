@@ -1,7 +1,7 @@
 Confounder Data Preperation
 ================
 Ben Sabath
-June 05, 2020
+June 09, 2020
 
 This directory contains the pipelines preparing data used as confounders
 in Xiao Wu’s statistical analysis. Each directory within this directory
@@ -14,4 +14,4 @@ The directories are as follows:
     Surveilance System
   - `census`: zip code level demographic data from Social Explorer
   - `eath_engine`: zip code level temperature, humidity, and
-    precipitation data from Google earth engine.
+    precipitation data from Google Earth Engine.

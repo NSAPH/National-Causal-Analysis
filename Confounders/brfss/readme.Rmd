@@ -13,7 +13,7 @@ As input to this pipeline, we use the CDC Behavioral Risk Factor Surveillance Sy
 survey results from 1999-2012. We stop at 2012 because survey responses were no longer tagged with county 
 level identifiers after that year.
 
-The directory `raw_data` contains all of the data used to create our BRFSS confounder data, with the exception of the actual BRFSS data, which is larger than github's max file size limit. The BRFSS data can be downloaded from [here](https://www.cdc.gov/brfss/about/archived.htm). To prepare it for the pipeline, please download the "SAS Transport Format" data for each year place the unzipped XPT file in the directory of its respective year. The processing code will convert the XPT files first to the standard SAS format (in the `sas_files` directory) and then to csv format (in the `csv` directory). 
+The directory `raw_data` contains all of the data used to create our BRFSS confounder data, with the exception of the actual BRFSS data, which is larger than github's max file size limit. The BRFSS data can be downloaded from [here](https://www.cdc.gov/brfss/about/archived.htm). To prepare it for the pipeline, please download the "SAS Transport Format" data for each year and place the unzipped XPT file in the directory of its respective year. The processing code will convert the XPT files first to the standard SAS format (in the `sas_files` directory) and then to csv format (in the `csv` directory). 
 
 Other files in `raw_data` are as follows:
 - `state.txt`: Used to convert state FIPS codes to standard postal codes
