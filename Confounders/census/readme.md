@@ -4,7 +4,7 @@ Ben Sabath
 June 03, 2020
 
 This directory contains a pipeline to produce a dataset with demographic
-information from the US census and American Community Survey at the
+information from the US Census and American Community Survey at the
 zipcode level.
 
 ## Raw Data
@@ -33,7 +33,7 @@ In brief, the steps are as follows:
 1st: The variables which are spread out across multiple files are
 combined in to a single file. The layout files and the varibles within
 them are indicated in `census_list.yml`. `read_census_data.R` is the
-code which creates the initial dataset. As the source is census dataset
+code which creates the initial dataset. As the source is census dataset,
 data points are located at zctas rather than zipcodes. Years without
 assosciated files are included as missing data.
 
