@@ -1,7 +1,7 @@
 Perparation of Data and Statisical Analysis
 ================
 Ben Sabath
-June 05, 2020
+June 09, 2020
 
 This directory contains code covering the creation of the data set used
 for anaylsis by Xiao Wu in his paper “Evaluating the Impact of Long-term
@@ -20,3 +20,18 @@ feasibly include in a github repo (some files are too large to share).
 Where we are unable to share data, we have provided instructions on how
 to acquire the source data and prepare it for use with the data
 pipelines.
+
+## Table of Contents
+
+The directories can be read in any order; however, reading in the
+following order reflects how data flows in the pipeline.
+
+  - [Confounders](Confounders/readme.md) Overview of non health, non
+    pm2.5 data used.
+      - [Census Data](Confounders/census/readme.md) Census data pipeline
+      - [Smoking and BMI](Confounders/brfss/readme.md)
+      - [Temperature and Humidity](Confounders/earth_engine/readme.md)
+  - [PM2.5 Data](Exposures/readme.md)
+  - [Medicare Mortality Data](HealthOutcomes/readme.md)
+  - [Merging Process](MergedData/readme.md)
+  - [Statisitical Analysis](StatisticalAnalysis/README.md)

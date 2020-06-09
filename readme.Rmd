@@ -11,3 +11,18 @@ in his paper "Evaluating the Impact of Long-term Exposure to Fine Particulate Ma
 The directory `Confounders` contains the process by which the zip code level demographic data, smoking and bmi data, and weather data are aquired and prepared for use. `Exposures` describes the preperation of the PM2.5 data. `HealthOutcomes` contains the code used to select data from the Medicare Beneficiary Summary Files. Finally, `MergedData` contains the process by which all these data sources are combined and cleaned in order to be analyzed by the code in `StatisticalAnalysis`.
 
 We have included as much data as we are allowed to share and can feasibly include in a github repo (some files are too large to share). Where we are unable to share data, we have provided instructions on how to acquire the source data and prepare it for use with the data pipelines.
+
+## Table of Contents
+
+The directories can be read in any order; however, reading in the following order reflects how data flows 
+in the pipeline.
+
+ - [Confounders](Confounders/readme.md) Overview of non health, non pm2.5 data used.
+   - [Census Data](Confounders/census/readme.md) Census data pipeline
+   - [Smoking and BMI](Confounders/brfss/readme.md)
+   - [Temperature and Humidity](Confounders/earth_engine/readme.md)
+- [PM2.5 Data](Exposures/readme.md)
+- [Medicare Mortality Data](HealthOutcomes/readme.md)
+- [Merging Process](MergedData/readme.md)
+- [Statisitical Analysis](StatisticalAnalysis/README.md)
+  
