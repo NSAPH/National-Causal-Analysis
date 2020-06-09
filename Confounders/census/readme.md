@@ -86,3 +86,7 @@ nationally provided by ESRI only contains ~41,000 zipcodes. When merging
 with the confounder data, ~0.2% of the medicare data will be lost. This
 accounts to a loss of a similar proportion of individuals within the
 data.
+
+## Diagram of the workflow
+
+![](census_workflow.png)

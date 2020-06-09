@@ -18,7 +18,7 @@ The directories can be read in any order; however, reading in the following orde
 in the pipeline.
 
  - [Confounders](Confounders/readme.md) Overview of non health, non pm2.5 data used.
-   - [Census Data](Confounders/census/readme.md) Census data pipeline
+   - [Census Data](Confounders/census/readme.md)
    - [Smoking and BMI](Confounders/brfss/readme.md)
    - [Temperature and Humidity](Confounders/earth_engine/readme.md)
 - [PM2.5 Data](Exposures/readme.md)

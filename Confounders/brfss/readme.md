@@ -69,3 +69,7 @@ in `processed_data`:
   - `mean_bmi`: mean bmi of respondants in a county
   - `year`: Year of response
   - `ZIP`: zip code
+
+## Diagram of the workflow
+
+![](brfss_workflow.png)

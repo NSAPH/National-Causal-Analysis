@@ -46,3 +46,7 @@ There are two files output from this process, both of which are stored in `proce
 - `year`: Year of response
 - `ZIP`: zip code
 
+## Diagram of the workflow
+
+![](brfss_workflow.png)
+
