@@ -1,7 +1,7 @@
 Temperature, Humidity, Preceipitation Earth Engine Data
 ================
 Ben Sabath
-June 09, 2020
+June 10, 2020
 
 ## Summary
 
@@ -21,14 +21,16 @@ annual averages.
 ## Download steps
 
 First, upload zip code shape files to Google Earth Engine, we used the
-zip code centroids and polygons from ESRI for this. Google Earth Engine
-doesn’t provide a means for direct download, so the final output files
-are exported to Google Drive. They then must be individually downloaded
-and stored in a directory before proceeding with the next step. The
-files in the directories `code/1_download_temperature_point` and
-`code/2_download temperature_polygon` contain the code used to calculate
-daily zip code level temperature estimates on google earth engine and
-prepare those data for export to google drive.
+zip code centroids and polygons from ESRI for this. We provide the shape
+files we use for centroids, but the polygon shape file is too large to
+provide.Google Earth Engine doesn’t provide a means for direct download,
+so the final output files are exported to Google Drive. They then must
+be individually downloaded and stored in a directory before proceeding
+with the next step. The files in the directories
+`code/1_download_temperature_point` and `code/2_download
+temperature_polygon` contain the code used to calculate daily zip code
+level temperature estimates on google earth engine and prepare those
+data for export to google drive.
 
 ## Combining the files
 
@@ -97,3 +99,7 @@ defined polygons are excluded from this data set.
   - `summer_rmax`: Mean summer daily max relative humidity
   - `winter_tmmx`: Mean winter daily max temperature
   - `winter_rmax`: Mean winter daily max relative humidity
+
+## Diagram of workflow
+
+![](earthengine_workflow.png)
