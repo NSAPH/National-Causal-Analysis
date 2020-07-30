@@ -1,7 +1,7 @@
 Census Confounder Pipeline
 ================
 Ben Sabath
-June 09, 2020
+July 30, 2020
 
 This directory contains a pipeline to produce a dataset with demographic
 information from the US Census and American Community Survey at the
@@ -70,13 +70,16 @@ final products. The files created will be the following:
 
 Variables in the output data set:
 
-poverty: % of the population older than 65 below the poverty line
-popdensity: population density per square mile medianhousevalue: median
-value of owner occupied properties pct\_blk: % of the population listed
-as black medhouseholdincome: median household income pct\_owner\_occ: %
-of housing units occupied by their owner hispanic: % of the population
-identified as hispanic, regardless of reported race education: % of the
-population older than 65 not graduating from high school
+  - `poverty`: % of the population older than 65 below the poverty line
+  - `popdensity`: population density per square mile
+  - `medianhousevalue`: median value of owner occupied properties
+  - `pct_blk`: % of the population listed as black
+  - `medhouseholdincome`: median household income
+  - `pct_owner_occ`: % of housing units occupied by their owner
+  - `hispanic`: % of the population identified as hispanic, regardless
+    of reported race
+  - `education`: % of the population older than 65 not graduating from
+    high school
 
 Within this dataset there are ~38,000 unique zipcodes. There are around
 47,000 unqiue zipcodes in the unmerged medicare mortality dataset. This
