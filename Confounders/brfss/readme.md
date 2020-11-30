@@ -3,7 +3,7 @@ BRFSS Confounder Preparation
 Ben Sabath
 June 09, 2020
 
-This directory contains the pipeline to acqure information from the
+This directory contains the pipeline to acquire information from the
 CDC’s BRFSS data set, which we use to acquire county level information
 on mean BMI and smoking habits. All data has been linked from the county
 level to the zip code level.
@@ -66,7 +66,7 @@ in `processed_data`:
 
   - `fips`: 5 digit county code
   - `smoke_rate`: % of the respondents in a county who have ever smoked
-  - `mean_bmi`: mean bmi of respondants in a county
+  - `mean_bmi`: mean bmi of respondents in a county
   - `year`: Year of response
   - `ZIP`: zip code
 
