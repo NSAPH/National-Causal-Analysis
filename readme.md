@@ -1,15 +1,15 @@
-Perparation of Data and Statisical Analysis
+Preparation of Data and Statistical Analysis
 ================
 Ben Sabath
 June 09, 2020
 
 This directory contains code covering the creation of the data set used
-for anaylsis by Xiao Wu in his paper “Evaluating the Impact of Long-term
+for analysis by Xiao Wu in the paper “Evaluating the Impact of Long-term
 Exposure to Fine Particulate Matter on Mortality Among the Elderly.”.
 
 The directory `Confounders` contains the process by which the zip code
 level demographic data, smoking and bmi data, and weather data are
-aquired and prepared for use. `Exposures` describes the preperation of
+acquired and prepared for use. `Exposures` describes the preparation of
 the PM2.5 data. `HealthOutcomes` contains the code used to select data
 from the Medicare Beneficiary Summary Files. Finally, `MergedData`
 contains the process by which all these data sources are combined and
@@ -34,4 +34,4 @@ following order reflects how data flows in the pipeline.
   - [PM2.5 Data](Exposures/readme.md)
   - [Medicare Mortality Data](HealthOutcomes/readme.md)
   - [Merging Process](MergedData/readme.md)
-  - [Statisitical Analysis](StatisticalAnalysis/README.md)
+  - [Statistical Analysis](StatisticalAnalysis/README.md)
