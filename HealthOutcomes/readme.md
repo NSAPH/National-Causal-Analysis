@@ -19,14 +19,14 @@ For the years 1999-2010, we use legacy data we received from Johns
 Hopkins. These data are older formats of the medicare beneficiary
 summary files that can currently be purchased, with a subset of the
 variables available pre selected. The variables selected are individual
-id, date of birth, zipcode of residence, age, race, data on orignal
+id, date of birth, zipcode of residence, age, race, data on original
 enrollment, hmo coverage, dual eligibility, end state renal disease
 indicators, and date of death. These files, along with the MBSFs from
 2011 to 2013 were merged to create the file
 `Denominator_1999_2013.sas7bdat` that is used as input to
 `RCE-Qian-den-1999-2016-01-23-2019.sas`.
 
-For questions about the data we recieved from Johns Hopkins, please
+For questions about the data we received from Johns Hopkins, please
 contact Aidan McDermott and Roger Peng at Johns Hopkins university.
 
 For 2011 onward, we start our processing directly on the Medicare
@@ -42,7 +42,7 @@ protect privacy.
 
 ## Processing
 
-The code that genreates the health data used in the statistical analysis
+The code that generates the health data used in the statistical analysis
 is `RCE-Qian-den-1999-2016-01-23-2019.sas`. It takes as input the
 previously cleaned data `Denominator_1999_2013.sas7bdat`, which is a
 previously created data set covering the years from 1999-2013 and the
@@ -62,4 +62,4 @@ We take the csv output `Denominator_1999_2016.csv` as input to our final
 merge that prepares data for statistical analysis. This data set
 includes individual ID, Date of Death, Sex, Race, monthly information on
 HMO enrollment, county code, state code, latitude, longitude, reversed
-zip code, medicaid elgibility, and the defined death indicator.
+zip code, medicaid eligibility, and the defined death indicator.
