@@ -64,7 +64,7 @@ variables here (first year that the individuals appear in the cohort,
 age at entry in to the cohort) that are needed in later analysis
 (`4_score_participant_variables.R`). The next step (`5_merge_health.R`)
 is the large merge, where we join the participant level variables with
-the person-year data in the benficiary summary file on individual ID and
+the person-year data in the beneficiary summary file on individual ID and
 join the zip code level exposure and confounders with the beneficiary
 file on the basis of zip code of residence and year.
 
