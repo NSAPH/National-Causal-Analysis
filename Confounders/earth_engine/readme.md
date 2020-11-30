@@ -1,4 +1,4 @@
-Temperature, Humidity, Preceipitation Earth Engine Data
+Temperature, Humidity, Precipitation Earth Engine Data
 ================
 Ben Sabath
 June 10, 2020
@@ -61,7 +61,7 @@ Polygons are used to define zip code areas for area weighted means where
 possible, otherwise centroid estimates are used. -
 `temperature_annual_zipcode_combined.csv`: Annual mean daily max
 temperature, precipitation, and humidity for all zip codes. Polygons are
-used to define zip code areas for area weighred means where possible,
+used to define zip code areas for area weighted means where possible,
 otherwise centroid estimates are used.
 
 Additional data produced by the pipeline is as follows: -
