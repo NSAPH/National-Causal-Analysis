@@ -11,7 +11,7 @@ pipeline itself.
 The directories are as follows:
 
   - `brfss`: smoking and bmi data from the CDC’s Behavioral Risk Factor
-    Surveilance System
+    Surveillance System
   - `census`: zip code level demographic data from Social Explorer
   - `eath_engine`: zip code level temperature, humidity, and
     precipitation data from Google Earth Engine.
