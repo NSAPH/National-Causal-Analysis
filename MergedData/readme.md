@@ -11,7 +11,7 @@ exposures on health outcomes.
 ## Inputs
 
 As input to the merge the process takes the following files, produced in
-the other processes contained in this reposititory: -
+the other processes contained in this repository: -
 `Denominator_1999_2016.csv`: The medicare beneficiary enrollment file
 from 1999-2016. The code producing this is in the `HealthOutcomes`
 directory. We are unable to share this due to the private nature of the
@@ -25,14 +25,14 @@ BRFSS (county level smoking rate and mean BMI) data from 1999-2016. The
 workflow creating this file is in `Confounders/brfss`. The source data
 is too large to share on github; however, we provide instructions for
 downloading it, the code we use to create the final data set, and the
-final data set. - `all_years.csv`: This file contians estimates of
+final data set. - `all_years.csv`: This file contains estimates of
 annual pm2.5 exposure for each zip code covering the period from
 2000-2016. We do not yet have permission from Joel Schwartz to share
 this data, but a description of the creation of the data, and some
-secondary processing code are availabe in the `Exposures` directory. -
+secondary processing code are available in the `Exposures` directory. -
 `temperature_seasonal_zipcode_combined.csv`: This file contains summer
 and winter temperature and humidity covering the period from 2000 until
-the end of winter 2020. The workflow producint this data is available in
+the end of winter 2020. The workflow producing this data is available in
 `Confounders/earth_engine`. The source data is again too large to share,
 but we share the code we run on google earth engine to produce the data,
 as well as the rest of the code we use, and the final products.
