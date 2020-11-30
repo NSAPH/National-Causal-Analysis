@@ -26,16 +26,16 @@ and a crosswalk going from zctas to zip code
 All code is stored in the `code` directory.
 
 The file `make.R` can be executed to recreate the processing steps that
-created cenesus\_interpolated\_zips.csv
+created census\_interpolated\_zips.csv
 
 In brief, the steps are as follows:
 
 1st: The variables which are spread out across multiple files are
-combined in to a single file. The layout files and the varibles within
+combined in to a single file. The layout files and the varisbles within
 them are indicated in `census_list.yml`. `read_census_data.R` is the
 code which creates the initial dataset. As the source is US census data,
 data points are located at zctas rather than zipcodes. Years without
-assosciated files are included as missing data.
+associated files are included as missing data.
 
 2nd: Temporal interpolation is performed. interpolate\_census.R performs
 this operation using functions from interpolate\_function.R. A moving
@@ -52,7 +52,7 @@ years were interpolated.
 
 ## Census Pipeline Output
 
-The diriectory `processed_data` is left empty as the final products of
+The directory `processed_data` is left empty as the final products of
 the census pipeline are larger than Github’s file size limit. However
 running the `make.R` file in the `code` directory will recreate the
 final products. The files created will be the following:
@@ -82,7 +82,7 @@ Variables in the output data set:
     high school
 
 Within this dataset there are ~38,000 unique zipcodes. There are around
-47,000 unqiue zipcodes in the unmerged medicare mortality dataset. This
+47,000 unique zipcodes in the unmerged medicare mortality dataset. This
 difference has been attributed to out of date and incorrect zipcodes
 entered in to the medicare dataset as the standard list of zipcodes
 nationally provided by ESRI only contains ~41,000 zipcodes. When merging
