@@ -1,5 +1,5 @@
 ---
-title: "Temperature, Humidity, Preceipitation Earth Engine Data"
+title: "Temperature, Humidity, Precipitation Earth Engine Data"
 author: "Ben Sabath"
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output: github_document
@@ -41,7 +41,7 @@ storage constraints, we only include the annual data and the seasonal data ultim
 
 Those two data sets are as follows:
 - `temperature_seasonal_zipcode_combined.csv`: Winter and summer mean daily max temperature and max relative humidity for all zip codes. Polygons are used to define zip code areas for area weighted means where possible, otherwise centroid estimates are used.
-- `temperature_annual_zipcode_combined.csv`: Annual mean daily max temperature, precipitation, and humidity for all zip codes. Polygons are used to define zip code areas for area weighred means where possible, otherwise centroid estimates are used.
+- `temperature_annual_zipcode_combined.csv`: Annual mean daily max temperature, precipitation, and humidity for all zip codes. Polygons are used to define zip code areas for area weighted means where possible, otherwise centroid estimates are used.
 
 Additional data produced by the pipeline is as follows:
 - temperature_annual_zipcode_centroid.csv: Annual mean temperature, precipitation, and humidity for all zip codes. The max temperature at the zip code centroid is used.
