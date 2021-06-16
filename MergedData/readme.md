@@ -1,7 +1,7 @@
 NSAPH 1999 through 2016 Data Merge
 ================
 Ben Sabath
-June 09, 2020
+June 16, 2021
 
 The code in this directory cleans and merges exposure, covariate, and
 health data to produce combined data sets covering the period from
@@ -11,31 +11,46 @@ exposures on health outcomes.
 ## Inputs
 
 As input to the merge the process takes the following files, produced in
-the other processes contained in this repository: -
-`Denominator_1999_2016.csv`: The medicare beneficiary enrollment file
-from 1999-2016. The code producing this is in the `HealthOutcomes`
-directory. We are unable to share this due to the private nature of the
-data. - `census_interpolated_zips.csv`: The interpolated census
-confounder data covering the period from 1999-2016. The code and source
-data producing this file is available in the `Confounders/census`
-directory. This file is too large to be shared on github in the form we
-merge. However, by running the provided code on the available source
-data, it can be recreated. - `brfss_interpolated.csv`: The interpolated
-BRFSS (county level smoking rate and mean BMI) data from 1999-2016. The
-workflow creating this file is in `Confounders/brfss`. The source data
-is too large to share on github; however, we provide instructions for
-downloading it, the code we use to create the final data set, and the
-final data set. - `all_years.csv`: This file contains estimates of
-annual pm2.5 exposure for each zip code covering the period from
-2000-2016. We do not yet have permission from Joel Schwartz to share
-this data, but a description of the creation of the data, and some
-secondary processing code are available in the `Exposures` directory. -
-`temperature_seasonal_zipcode_combined.csv`: This file contains summer
-and winter temperature and humidity covering the period from 2000 until
-the end of winter 2020. The workflow producing this data is available in
-`Confounders/earth_engine`. The source data is again too large to share,
-but we share the code we run on google earth engine to produce the data,
-as well as the rest of the code we use, and the final products.
+the other processes contained in this repository:
+
+  - `Denominator_1999_2016.csv`: The medicare beneficiary enrollment
+    file from 1999-2016. The code producing this is in the
+    `HealthOutcomes` directory. We are unable to share this due to the
+    private nature of the data.
+
+  - `census_interpolated_zips.csv`: The interpolated census confounder
+    data covering the period from 1999-2016. The code and source data
+    producing this file is available in the `Confounders/census`
+    directory. This file is too large to be shared on github in the form
+    we merge. However, by running the provided code on the available
+    source data, it can be recreated.
+
+  - `brfss_interpolated.csv`: The interpolated BRFSS (county level
+    smoking rate and mean BMI) data from 1999-2016. The workflow
+    creating this file is in `Confounders/brfss`. The source data is too
+    large to share on github; however, we provide instructions for
+    downloading it, the code we use to create the final data set, and
+    the final data set.
+
+  - `all_years.csv`: This file contains estimates of annual pm2.5
+    exposure for each zip code covering the period from 2000-2016. We do
+    not yet have permission from Joel Schwartz to share this data, but a
+    description of the creation of the data, and some secondary
+    processing code are available in the `Exposures` directory.
+
+  - `temperature_seasonal_zipcode_combined.csv`: This file contains
+    summer and winter temperature and humidity covering the period from
+    2000 until the end of winter 2020. The workflow producing this data
+    is available in `Confounders/earth_engine`. The source data is again
+    too large to share, but we share the code we run on google earth
+    engine to produce the data, as well as the rest of the code we use,
+    and the final products.
+
+## Software Versions Used
+
+  - Base R: 3.5.1, Intel MKL Kernel
+  - data.table R package: 1.11.4
+  - fst R package: 0.8.8
 
 ## Workflow overview
 
@@ -64,9 +79,9 @@ variables here (first year that the individuals appear in the cohort,
 age at entry in to the cohort) that are needed in later analysis
 (`4_score_participant_variables.R`). The next step (`5_merge_health.R`)
 is the large merge, where we join the participant level variables with
-the person-year data in the beneficiary summary file on individual ID and
-join the zip code level exposure and confounders with the beneficiary
-file on the basis of zip code of residence and year.
+the person-year data in the beneficiary summary file on individual ID
+and join the zip code level exposure and confounders with the
+beneficiary file on the basis of zip code of residence and year.
 
 Following this step and after initially using this data in our analysis,
 we observed that some individuals in the cohort had multiple days of

@@ -1,12 +1,20 @@
 BRFSS Confounder Preparation
 ================
 Ben Sabath
-June 09, 2020
+June 16, 2021
 
 This directory contains the pipeline to acquire information from the
 CDC’s BRFSS data set, which we use to acquire county level information
 on mean BMI and smoking habits. All data has been linked from the county
 level to the zip code level.
+
+## Data Provided
+
+  - Input BRFSS will need to be downloaded independently of the code
+    provided in this repository. Users should download the survey data
+    from 1999-2012, following the instructions in the [Inputs](#inputs)
+    section.
+  - All other data used is provided in this repository.
 
 ## Inputs
 
@@ -28,6 +36,12 @@ to csv format (in the `csv` directory).
 Other files in `raw_data` are as follows: - `state.txt`: Used to convert
 state FIPS codes to standard postal codes - `esri_zipcode_2010.csv`:
 Used to link the county level values
+
+## Software Versions
+
+  - R Base = 3.6.2
+  - dplyr = 1.0.6
+  - SAS = 9.4
 
 ## Data Preparation
 

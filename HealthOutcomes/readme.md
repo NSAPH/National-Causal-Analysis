@@ -1,7 +1,7 @@
 SAS code to create analytic data set
 ================
 Ben Sabath
-June 11, 2020
+June 16, 2021
 
 This directory contains code we use to create our initial mortality data
 set prior to merging it with the confounder and exposure data. We use
@@ -18,9 +18,9 @@ from [RESDAC](https://www.resdac.org/).
 For the years 1999-2010, we use legacy data we received from Johns
 Hopkins. These data are older formats of the medicare beneficiary
 summary files that can currently be purchased, with a subset of the
-variables available pre selected. The variables selected are individual
-id, date of birth, zipcode of residence, age, race, data on original
-enrollment, hmo coverage, dual eligibility, end state renal disease
+variables available pre-selected. The variables selected are individual
+id, date of birth, zip code of residence, age, race, data on original
+enrollment, HMO coverage, dual eligibility, end state renal disease
 indicators, and date of death. These files, along with the MBSFs from
 2011 to 2013 were merged to create the file
 `Denominator_1999_2013.sas7bdat` that is used as input to
@@ -33,11 +33,11 @@ For 2011 onward, we start our processing directly on the Medicare
 Beneficiary Summary files we receive from CMS. We receive a flat file
 (which has a name that varies based on year, request number, and DUA)
 named `mbsf_ab_summary_<DUA/REQUEST SPECIFIC CHARACTERS>_<year>.dat`. We
-run cms provided SAS code that is delivered along side the flat files
+run CMS provided SAS code that is delivered along side the flat files
 which outputs a file named `mbsf_ab_summary.sas7bdat` (regardless of
 year). For clarity, we rename the output for each year
 `Denominator_<year>.sas7bdat`. We also use SAS libraries to also include
-county code, latitude, longitude, and to reverse the zipcode to further
+county code, latitude, longitude, and to reverse the zip code to further
 protect privacy.
 
 ## Processing
@@ -58,7 +58,7 @@ SAS format (`den_1999_2016.sas7bdat`) and as a CSV
 
 ## Final Output
 
-We take the csv output `Denominator_1999_2016.csv` as input to our final
+We take the CSV output `Denominator_1999_2016.csv` as input to our final
 merge that prepares data for statistical analysis. This data set
 includes individual ID, Date of Death, Sex, Race, monthly information on
 HMO enrollment, county code, state code, latitude, longitude, reversed

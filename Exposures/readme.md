@@ -1,7 +1,7 @@
 PM2.5 Data Pipeline
 ================
 Ben Sabath
-June 03, 2020
+June 16, 2021
 
 ## PM2.5 Input Data
 
@@ -42,6 +42,13 @@ the following description of how the estimates were created:
 > Institute a.k.a. “Esri”); for a PO Box, we estimated the daily
 > concentrations by linking it to the nearest grid.
 
+Please note that we are unable to provide the code and workflow for the
+initial creation of the pm2.5 (preventing this entire data flow from
+being producible from true source), as our collaborators were unable to
+provide their entire process. However, the PM2.5 exposure data we used
+is available for download
+[here](https://beta.sedac.ciesin.columbia.edu/data/set/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016).
+
 ## Code
 
 The directory `code/yaguang_pm25_code` contains the code provided to us
@@ -49,7 +56,7 @@ by Joel’s team that they use to create the zip code level estimates from
 their grid level data.
 
 After receiving the data from Joel, we convert the provided RDS files to
-csvs and combine them in to a single file to prepare them for joining
+CSVs and combine them in to a single file to prepare them for joining
 with our other data sources(`code/combine_years.R`).
 
 ## Output
