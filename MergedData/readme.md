@@ -1,7 +1,7 @@
 NSAPH 1999 through 2016 Data Merge
 ================
 Ben Sabath
-June 16, 2021
+June 22, 2021
 
 The code in this directory cleans and merges exposure, covariate, and
 health data to produce combined data sets covering the period from
@@ -33,10 +33,10 @@ the other processes contained in this repository:
     the final data set.
 
   - `all_years.csv`: This file contains estimates of annual pm2.5
-    exposure for each zip code covering the period from 2000-2016. We do
-    not yet have permission from Joel Schwartz to share this data, but a
-    description of the creation of the data, and some secondary
-    processing code are available in the `Exposures` directory.
+    exposure for each zip code covering the period from 2000-2016. The
+    file can be found in `Exposures/processed_data`. Please see the
+    readme in the Exposures directory for a description of how the file
+    is created and for a link to the source grid point estimates.
 
   - `temperature_seasonal_zipcode_combined.csv`: This file contains
     summer and winter temperature and humidity covering the period from

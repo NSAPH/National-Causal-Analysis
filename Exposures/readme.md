@@ -1,15 +1,17 @@
 PM2.5 Data Pipeline
 ================
 Ben Sabath
-June 16, 2021
+June 22, 2021
 
 ## PM2.5 Input Data
 
-We receive a series of .RDS files from Joel Schwarz’s team containing
-annual estimates of mean pm2.5 for each zip code. We have not been given
+We receive a series of .RDS files from [Dr. Joel Schwarz’s
+team](https://www.hsph.harvard.edu/joel-schwartz/) containing annual
+estimates of mean pm2.5 for each zip code. We have not been given
 permission to share these data, but the directory `raw_data/annual_pm25`
-is created as a place holder. Yaguang Wei, a member of Joel’s team wrote
-the following description of how the estimates were created:
+is created as a place holder. Yaguang Wei, a member of Dr Schwartz’s
+team (who developed the aggregation method) wrote the following
+description of how the estimates were created:
 
 > The daily and annual estimations of ambient PM2.5 at ZIP Codes across
 > the continental US, 2000-2016, were aggregated from the estimations at
@@ -52,12 +54,12 @@ is available for download
 ## Code
 
 The directory `code/yaguang_pm25_code` contains the code provided to us
-by Joel’s team that they use to create the zip code level estimates from
-their grid level data.
+by Dr. Joel Schwartz’s team that they use to create the zip code level
+estimates from their grid level data.
 
-After receiving the data from Joel, we convert the provided RDS files to
-CSVs and combine them in to a single file to prepare them for joining
-with our other data sources(`code/combine_years.R`).
+After receiving the data from Dr. Schwartz, we convert the provided RDS
+files to CSVs and combine them in to a single file to prepare them for
+joining with our other data sources(`code/combine_years.R`).
 
 ## Output
 

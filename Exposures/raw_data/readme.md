@@ -1,7 +1,7 @@
 ## PM2.5 Input Data
 
-We receive a series of .RDS files from Joel Schwarz's team containing annual estimates of mean pm2.5
-for each zip code. We have not been given permission to share these data, but the directory `annual_pm25` is created as a place holder. Yaguang Wei, a member of Joel's team wrote the following description of how the 
+We receive a series of .RDS files from Dr. Joel Schwarz's team containing annual estimates of mean pm2.5
+for each zip code. We did not do the aggregation ourselves and cannot directly reproduce it, but the source grid point data is available [here](https://beta.sedac.ciesin.columbia.edu/data/set/aqdh-pm2-5-concentrations-contiguous-us-1-km-2000-2016). Yaguang Wei, a member of Dr Schwartz's team (who developed the aggregation method) wrote the following description of how the 
 estimates were created:
 
 >The daily and annual estimations of ambient PM2.5 at ZIP Codes across the continental US, 2000-2016, were aggregated from the estimations at 1km*1km grid cells. Below is a summary of how these estimations were created:

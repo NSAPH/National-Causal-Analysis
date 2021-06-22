@@ -1,7 +1,7 @@
 Census Confounder Pipeline
 ================
 Ben Sabath
-June 16, 2021
+June 22, 2021
 
 This directory contains a pipeline to produce a data set with
 demographic information from the US Census and American Community Survey
@@ -12,13 +12,14 @@ All data needed to recreate this data is provided in this directory.
 ## Raw Data
 
 All source data is in the `raw_data` directory. The data was downloaded
-from the census social explorer website by Fei Carnes. All downloaded
-data is contained in the directory `raw_data/raw_census`. The data
-within that directory is stored with the structure `<variable>/<census
-or acs>/zcta/<year>`. In that directory is the CSV and readme downloaded
-from the Social explorer. To reacquire the source data, the same report
-number (found in the included readme) should be downloaded from social
-explorer.
+from the census social explorer website by Fei Carnes, a former research
+assistant working for Dr. Francesca Dominici, who assisted with
+geographically available data. All downloaded data is contained in the
+directory `raw_data/raw_census`. The data within that directory is
+stored with the structure `<variable>/<census or acs>/zcta/<year>`. In
+that directory is the CSV and readme downloaded from the Social
+explorer. To reacquire the source data, the same report number (found in
+the included readme) should be downloaded from social explorer.
 
 Additionally in this directory we have a list of all ZCTAs (`zcta_list`)
 and a crosswalk going from ZCTAs to zip code
@@ -58,6 +59,14 @@ codes. This is done by zip\_zcta\_crosswalk.R
 
 Data was available for the year 2000, and from 2011-2016. All other
 years were interpolated.
+
+For the year 2000, we used data from the decennial census (including
+data from both the SF1 and SF3 summary files). For 2011 onward, we used
+data from the US Census ACS 5 year Estimates. Despite there being a
+decennial census in 2010, and ACS data available for some geographies in
+2009 and 2010, we did not use data for those years, as many of the
+variables we are interested in are only in the ACS, and ACS data is not
+available at the ZCTA level prior to 2011.
 
 ## Census Pipeline Output
 

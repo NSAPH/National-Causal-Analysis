@@ -1,7 +1,7 @@
 BRFSS Confounder Preparation
 ================
 Ben Sabath
-June 16, 2021
+June 22, 2021
 
 This directory contains the pipeline to acquire information from the
 CDC’s BRFSS data set, which we use to acquire county level information
@@ -61,7 +61,11 @@ individuals is limited to their county. To create the zip code level
 data, we aggregate the variables of interest within each county, and
 then link the county level data to zip codes (using
 `raw_data/esri_zipcode_2010.csv`). We also perform moving average
-temporal interpolation to reduce missingness. The uninterpolated data
+temporal interpolation to reduce missingness. We interpolated using a
+moving average within each zip code to fill in data for years where
+there was no survey data for a given year. We also use the same rolling
+average method in create an estimate for the years following 2012, when
+county level data became unavailable. The uninterpolated data
 (`processed_data/brfss_confounders.csv`)is kept to help control for
 uncertainty in the interpolation method, and allow users to identify
 which values were interpolated.
