@@ -1,12 +1,12 @@
 SAS code to create analytic data set
 ================
 Ben Sabath
-June 16, 2021
+June 23, 2021
 
 This directory contains code we use to create our initial mortality data
 set prior to merging it with the confounder and exposure data. We use
-the Medicare Beneficiary summary file from 1999-2016 to create this data
-set.
+the Medicare Beneficiary summary file ( 100% MBSF - MASTER BENEFICIARY
+SUMMARY FILE (MBSF) base, years) from 1999-2016 to create this data set.
 
 ## Input data
 

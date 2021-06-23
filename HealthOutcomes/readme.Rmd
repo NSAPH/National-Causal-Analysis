@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-This directory contains code we use to create our initial mortality data set prior to merging it with the confounder and exposure data. We use the Medicare Beneficiary summary file from 1999-2016 to create this data set. 
+This directory contains code we use to create our initial mortality data set prior to merging it with the confounder and exposure data. We use the Medicare Beneficiary summary file ( 100% MBSF - MASTER BENEFICIARY SUMMARY FILE (MBSF) base, years) from 1999-2016 to create this data set. 
 
 ## Input data
 We are unable to share the data we receive from CMS as it is private health information and sharing it publicly would be a violation of our DUA. However, all of the source files we use can be directly purchased from [RESDAC](https://www.resdac.org/).
