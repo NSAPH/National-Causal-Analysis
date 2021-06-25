@@ -11,7 +11,7 @@ In general, two files are purchased directly from CMS [RESDAC](https://www.resda
 
 1)100% MBSF - MASTER BENEFICIARY SUMMARY FILE (MBSF) base, years
 
-2) 100% MEDPAR - MEDICARE PROVIDER ANALYSIS AND REVIEW (ss/ls/snf), years 
+2)100% MEDPAR - MEDICARE PROVIDER ANALYSIS AND REVIEW (ss/ls/snf), years 
 
 ## Input data
 
