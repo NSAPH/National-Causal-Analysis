@@ -8,7 +8,9 @@ set prior to merging it with the confounder and exposure data. We use
 the Medicare Beneficiary summary file from 1999-2016 to create this data
 set.
 In general, two files are purchased directly from CMS [RESDAC](https://www.resdac.org/)
+
 1)100% MBSF - MASTER BENEFICIARY SUMMARY FILE (MBSF) base, years
+
 2) 100% MEDPAR - MEDICARE PROVIDER ANALYSIS AND REVIEW (ss/ls/snf), years 
 
 ## Input data
