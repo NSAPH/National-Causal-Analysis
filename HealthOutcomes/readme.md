@@ -7,6 +7,9 @@ This directory contains code we use to create our initial mortality data
 set prior to merging it with the confounder and exposure data. We use
 the Medicare Beneficiary summary file from 1999-2016 to create this data
 set.
+In general, two files are purchased directly from CMS [RESDAC](https://www.resdac.org/)
+1)100% MBSF - MASTER BENEFICIARY SUMMARY FILE (MBSF) base, years
+2) 100% MEDPAR - MEDICARE PROVIDER ANALYSIS AND REVIEW (ss/ls/snf), years 
 
 ## Input data
 
@@ -21,13 +24,11 @@ summary files that can currently be purchased, with a subset of the
 variables available pre-selected. The variables selected are individual
 id, date of birth, zip code of residence, age, race, data on original
 enrollment, HMO coverage, dual eligibility, end state renal disease
-indicators, and date of death. These files, along with the MBSFs from
-2011 to 2013 were merged to create the file
-`Denominator_1999_2013.sas7bdat` that is used as input to
-`RCE-Qian-den-1999-2016-01-23-2019.sas`.
+indicators, and date of death. 
 
 For questions about the data we received from Johns Hopkins, please
 contact Aidan McDermott and Roger Peng at Johns Hopkins university.
+
 
 For 2011 onward, we start our processing directly on the Medicare
 Beneficiary Summary files we receive from CMS. We receive a flat file
@@ -39,6 +40,10 @@ year). For clarity, we rename the output for each year
 `Denominator_<year>.sas7bdat`. We also use SAS libraries to also include
 county code, latitude, longitude, and to reverse the zip code to further
 protect privacy.
+
+The files from Hopkins along with the Medicare Beneficiary Summary Files (MBSFs) from
+2011 to 2013 were merged to create the file `Denominator_1999_2013.sas7bdat` that is used as input to
+`RCE-Qian-den-1999-2016-01-23-2019.sas`.
 
 ## Processing
 
