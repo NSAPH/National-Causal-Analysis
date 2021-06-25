@@ -1,7 +1,7 @@
 SAS code to create analytic data set
 ================
 Ben Sabath
-June 23, 2021
+June 25, 2021
 
 This directory contains code we use to create our initial mortality data
 set prior to merging it with the confounder and exposure data. We use
