@@ -1,0 +1,30 @@
+
+# Universe whould always be 'vanilla'. This line MUST be 
+#included in your submit file, exactly as shown below.
+Universe = vanilla
+
+# Optional
+request_cpus = 8
+#request_disk = 10GB
+request_memory = 10GB
+
+# Enter the path to the R program.
+Executable = /usr/local/bin/R
+
+# Specify any arguments you want to pass to the executable
+# to make r not save or restore workspaces, and to 
+# run as quietly as possible
+Arguments = --no-save --no-restore --slave --args $(Process)
+
+# Specify the relative path to the input file
+input = match_parallel_pm25_unadjusted.R
+
+# Specify where to output any results printed by your program.
+output = /nfs/home/X/xwu/shared_space/ci3_xwu/HEI_final/file/GPSmatching_out.$(Process)
+
+# Specify where to save any errors returned by your program.
+error = /nfs/home/X/xwu/shared_space/ci3_xwu/HEI_final/file/GPSmatching_error.$(Process)
+
+Log = /nfs/home/X/xwu/shared_space/ci3_xwu/HEI_final/file/GPSmatching_log.txt.$(Process)
+# Enter the number of processes to request.
+Queue 100
