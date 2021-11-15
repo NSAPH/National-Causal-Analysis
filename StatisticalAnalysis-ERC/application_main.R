@@ -11,8 +11,8 @@ library("stringr")
 
 output = "/nfs/home/X/xwu/shared_space/ci3_xwu/HEI_final/"
 
-load("/nfs/home/X/xwu/shared_space/ci3_analysis/pdez_measurementerror/National_Causal-master/balance_qd/covariates_qd.RData")
-load("/nfs/home/X/xwu/shared_space/ci3_analysis/pdez_measurementerror/National_Causal-master/aggregate_data_qd.RData")
+load(paste0(output, "covariates_qd.RData"))
+load(paste0(output, "aggregate_data_qd.RData"))
 dead_personyear<-aggregate(cbind(aggregate_data_qd$dead,
                                  aggregate_data_qd$time_count),
                            by=list( aggregate_data_qd$zip,
