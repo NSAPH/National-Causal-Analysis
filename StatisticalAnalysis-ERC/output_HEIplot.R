@@ -50,56 +50,6 @@ ggplot(data=DR, aes(x=a.vals, y=dose_matching.response.smooth)) +
   xlim(2.76,17.16)
 dev.off()
 
-# pm25 | no2
-subgroup = "pm25"
-load(paste0("~/Dropbox/National_Causal/HEI_final/smoothed_pm25_adjusted_no2.RData"))
-DR <-as.data.frame(cbind(band=rep("DR",length(a.vals)),a.vals,dose_matching.response.smooth),stringsAsFactors = F)
-
-f <- list.files(paste0("~/Dropbox/National_Causal/HEI_final/Boots/Boots_",subgroup,"_adjusted"),
-                pattern = "\\.RData",
-                full.names = TRUE)
-
-DR_response.smooth_boots <- do.call(rbind,lapply(f,function(path){
-  load(path);
-  return(dose_matching.response.smooth)
-}))
-
-
-DR_a.vals_boots <- do.call(rbind,lapply(f,function(path){
-  load(path);
-  return(a.vals)
-}))
-
-DR_sd <- sapply(1:100, function(i){
-  sd(DR_response.smooth_boots[,i],na.rm = T)*sqrt(2*31337^{2/3})/sqrt(31337)
-})
-
-DR$a.vals <-as.numeric(DR$a.vals)
-DR$dose_matching.response.smooth <-as.numeric(DR$dose_matching.response.smooth)
-
-DR_HR_sd <- sapply(1:100, function(i){
-  sd((log(DR_response.smooth_boots[,i])-log(DR$dose_matching.response.smooth[10])),na.rm = T)*sqrt(2*31337^{2/3})/sqrt(31337)
-})
-DR_HR <- exp(log(DR$dose_matching.response.smooth)-log(DR$dose_matching.response.smooth[10]))
-
-pdf("pm25_adjusted_no2.pdf", width = 11, height = 8.5)
-ggplot(data=DR, aes(x=a.vals, y=dose_matching.response.smooth)) +
-  geom_line(aes(x= DR_a.vals_boots[1,], y= DR_HR) ,color="red", lwd=1.2) +
-  geom_ribbon(aes(x= DR_a.vals_boots[1,], ymin= (DR_HR-1.96*DR_HR_sd),ymax=(DR_HR+1.96*DR_HR_sd),fill="red"),alpha=0.1, show.legend = F, colour = NA) +
-  geom_line(aes(x= DR_a.vals_boots[1,], y= DR_HR+1.96*DR_HR_sd),linetype="dashed" ,color="red", lwd=1.2) +
-  geom_line(aes(x= DR_a.vals_boots[1,], y= DR_HR-1.96*DR_HR_sd),linetype="dashed" ,color="red" , lwd=1.2) +
-  theme_bw() +
-  theme(plot.title = element_text(hjust = 0.5),
-        legend.position = c(0.7, 0.2),
-        axis.text = element_text(size=10 * 2),
-        axis.title = element_text(size = 12 * 2)) +
-  xlab(expression(paste("PM"[2.5]," (",mu,g/m^3,")"))) +
-  ylab("Hazard Ratio") +
-  ylim(0.9,1.33) +
-  xlim(2.76,17.16)
-dev.off()
-
-
 subgroup = "no2"
 load(paste0("~/Dropbox/National_Causal/HEI_final/smoothed_",subgroup,"_adjusted.RData"))
 DR <-as.data.frame(cbind(band=rep("DR",length(a.vals)),a.vals,dose_matching.response.smooth),stringsAsFactors = F)
