@@ -52,7 +52,7 @@ dev.off()
 
 # pm25 | no2
 subgroup = "pm25"
-load(paste0("~/Dropbox/National_Causal/HEI_final/smoothed_pm25_adjusted_no2_CausalGPS_trim.RData"))
+load(paste0("~/Dropbox/National_Causal/HEI_final/smoothed_pm25_adjusted_no2.RData"))
 DR <-as.data.frame(cbind(band=rep("DR",length(a.vals)),a.vals,dose_matching.response.smooth),stringsAsFactors = F)
 
 f <- list.files(paste0("~/Dropbox/National_Causal/HEI_final/Boots/Boots_",subgroup,"_adjusted"),
