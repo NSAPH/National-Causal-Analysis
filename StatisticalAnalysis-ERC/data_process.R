@@ -1,4 +1,3 @@
-# Generate all required data from different data sources (see Table S1).
 library(fst)
 library(data.table)
 library(parallel)
