@@ -4,8 +4,9 @@ Ben Sabath
 June 16, 2021
 
 This directory contains code covering the creation of the data set used
-for analysis by Xiao Wu in the paper “Evaluating the Impact of Long-term
-Exposure to Fine Particulate Matter on Mortality Among the Elderly.”.
+for analysis in the Health Effects Institute Final Report "Assessing Adverse 
+Health Effects of Long-Term Exposure to Low Levels of Ambient Pollution: 
+Implementation of Causal Inference Methods."
 
 The directory `Confounders` contains the process by which the zip code
 level demographic data, smoking and BMI data, and weather data are
