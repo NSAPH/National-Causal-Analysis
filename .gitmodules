@@ -1,4 +1,4 @@
 [submodule "StatisticalAnalysis"]
 	path = StatisticalAnalysis
-	url = https://github.com/NSAPH/National_Causal
+	url = git@github.com:NSAPH/National_Causal.git
 	branch = master
