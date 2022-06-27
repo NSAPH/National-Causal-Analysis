@@ -1,5 +1,7 @@
 Census Confounder Pipeline
 ================
+[![](<https://img.shields.io/badge/DOI-10.7910/DVN/9V5WCM-orange>)](https://www.doi.org/10.7910/DVN/9V5WCM)
+
 Ben Sabath
 June 22, 2021
 
@@ -8,6 +10,9 @@ demographic information from the US Census and American Community Survey
 at the zip code level.
 
 All data needed to recreate this data is provided in this directory.
+
+Cite this data as: 
+> _Sabath, Ben, 2022, "Census data interpolated by year and zip code", https://doi.org/10.7910/DVN/9V5WCM, Harvard Dataverse, V1_
 
 ## Raw Data
 
